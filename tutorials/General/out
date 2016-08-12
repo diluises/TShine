@@ -1,0 +1,2173 @@
+ ---- Open ouput file ----- 
+--- Particle List ----
+Decay: #pi^{+}->#mu^{+}+X
+p p q:+1 q>0 m=0.938272 GeV/c^{2} m^{2}=0.880354 GeV^{2}/c^{4}
+KPlu K^{+} q:+1 q>0 m=0.493667 GeV/c^{2} m^{2}=0.243707 GeV^{2}/c^{4}
+KMin K^{-} q:-1 q<0 m=0.493667 GeV/c^{2} m^{2}=0.243707 GeV^{2}/c^{4}
+K0 K^{0} q:0 q=0 m=0.497648 GeV/c^{2} m^{2}=0.247654 GeV^{2}/c^{4}
+ ============ Analysis =========== 
+
+	 -- Kinematics and Observable variables --- 
+Theta: polar angle #theta:[0,400] mrad value: 0
+Mom: momentum p_{tot}:[0.1,31] GeV/c value: 0
+ZTarg: z-target z_{targ}:[0,90] cm value: 0
+	 ----- Phase Space -----
+Mom Mom
+Theta Theta
+var1 offset 0 8 x 0.8
+1: [0, 0.8]
+2: [0.8, 1.6]
+3: [1.6, 2.4]
+4: [2.4, 3.2]
+5: [3.2, 4]
+6: [4, 4.8]
+7: [4.8, 5.6]
+8: [5.6, 6.4]
+var2 offset 0 1 x 20
+1: [0, 20]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 8
+vol: 1 p_{tot}:[0,0.8] GeV/c #theta:[0,20] mrad
+vol: 2 p_{tot}:[0.8,1.6] GeV/c #theta:[0,20] mrad
+vol: 3 p_{tot}:[1.6,2.4] GeV/c #theta:[0,20] mrad
+vol: 4 p_{tot}:[2.4,3.2] GeV/c #theta:[0,20] mrad
+vol: 5 p_{tot}:[3.2,4] GeV/c #theta:[0,20] mrad
+vol: 6 p_{tot}:[4,4.8] GeV/c #theta:[0,20] mrad
+vol: 7 p_{tot}:[4.8,5.6] GeV/c #theta:[0,20] mrad
+vol: 8 p_{tot}:[5.6,6.4] GeV/c #theta:[0,20] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 6.4 3 x 1.2
+1: [6.4, 7.6]
+2: [7.6, 8.8]
+3: [8.8, 10]
+var2 offset 0 1 x 20
+1: [0, 20]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 3
+vol: 1 p_{tot}:[6.4,7.6] GeV/c #theta:[0,20] mrad
+vol: 2 p_{tot}:[7.6,8.8] GeV/c #theta:[0,20] mrad
+vol: 3 p_{tot}:[8.8,10] GeV/c #theta:[0,20] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 10 9 x 1.6
+1: [10, 11.6]
+2: [11.6, 13.2]
+3: [13.2, 14.8]
+4: [14.8, 16.4]
+5: [16.4, 18]
+6: [18, 19.6]
+7: [19.6, 21.2]
+8: [21.2, 22.8]
+9: [22.8, 24.4]
+var2 offset 0 1 x 20
+1: [0, 20]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 9
+vol: 1 p_{tot}:[10,11.6] GeV/c #theta:[0,20] mrad
+vol: 2 p_{tot}:[11.6,13.2] GeV/c #theta:[0,20] mrad
+vol: 3 p_{tot}:[13.2,14.8] GeV/c #theta:[0,20] mrad
+vol: 4 p_{tot}:[14.8,16.4] GeV/c #theta:[0,20] mrad
+vol: 5 p_{tot}:[16.4,18] GeV/c #theta:[0,20] mrad
+vol: 6 p_{tot}:[18,19.6] GeV/c #theta:[0,20] mrad
+vol: 7 p_{tot}:[19.6,21.2] GeV/c #theta:[0,20] mrad
+vol: 8 p_{tot}:[21.2,22.8] GeV/c #theta:[0,20] mrad
+vol: 9 p_{tot}:[22.8,24.4] GeV/c #theta:[0,20] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 0 8 x 0.8
+1: [0, 0.8]
+2: [0.8, 1.6]
+3: [1.6, 2.4]
+4: [2.4, 3.2]
+5: [3.2, 4]
+6: [4, 4.8]
+7: [4.8, 5.6]
+8: [5.6, 6.4]
+var2 offset 20 1 x 20
+1: [20, 40]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 8
+vol: 1 p_{tot}:[0,0.8] GeV/c #theta:[20,40] mrad
+vol: 2 p_{tot}:[0.8,1.6] GeV/c #theta:[20,40] mrad
+vol: 3 p_{tot}:[1.6,2.4] GeV/c #theta:[20,40] mrad
+vol: 4 p_{tot}:[2.4,3.2] GeV/c #theta:[20,40] mrad
+vol: 5 p_{tot}:[3.2,4] GeV/c #theta:[20,40] mrad
+vol: 6 p_{tot}:[4,4.8] GeV/c #theta:[20,40] mrad
+vol: 7 p_{tot}:[4.8,5.6] GeV/c #theta:[20,40] mrad
+vol: 8 p_{tot}:[5.6,6.4] GeV/c #theta:[20,40] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 6.4 3 x 1.2
+1: [6.4, 7.6]
+2: [7.6, 8.8]
+3: [8.8, 10]
+var2 offset 20 1 x 20
+1: [20, 40]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 3
+vol: 1 p_{tot}:[6.4,7.6] GeV/c #theta:[20,40] mrad
+vol: 2 p_{tot}:[7.6,8.8] GeV/c #theta:[20,40] mrad
+vol: 3 p_{tot}:[8.8,10] GeV/c #theta:[20,40] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 10 9 x 1.6
+1: [10, 11.6]
+2: [11.6, 13.2]
+3: [13.2, 14.8]
+4: [14.8, 16.4]
+5: [16.4, 18]
+6: [18, 19.6]
+7: [19.6, 21.2]
+8: [21.2, 22.8]
+9: [22.8, 24.4]
+var2 offset 20 1 x 20
+1: [20, 40]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 9
+vol: 1 p_{tot}:[10,11.6] GeV/c #theta:[20,40] mrad
+vol: 2 p_{tot}:[11.6,13.2] GeV/c #theta:[20,40] mrad
+vol: 3 p_{tot}:[13.2,14.8] GeV/c #theta:[20,40] mrad
+vol: 4 p_{tot}:[14.8,16.4] GeV/c #theta:[20,40] mrad
+vol: 5 p_{tot}:[16.4,18] GeV/c #theta:[20,40] mrad
+vol: 6 p_{tot}:[18,19.6] GeV/c #theta:[20,40] mrad
+vol: 7 p_{tot}:[19.6,21.2] GeV/c #theta:[20,40] mrad
+vol: 8 p_{tot}:[21.2,22.8] GeV/c #theta:[20,40] mrad
+vol: 9 p_{tot}:[22.8,24.4] GeV/c #theta:[20,40] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 0 8 x 0.8
+1: [0, 0.8]
+2: [0.8, 1.6]
+3: [1.6, 2.4]
+4: [2.4, 3.2]
+5: [3.2, 4]
+6: [4, 4.8]
+7: [4.8, 5.6]
+8: [5.6, 6.4]
+var2 offset 40 1 x 20
+1: [40, 60]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 8
+vol: 1 p_{tot}:[0,0.8] GeV/c #theta:[40,60] mrad
+vol: 2 p_{tot}:[0.8,1.6] GeV/c #theta:[40,60] mrad
+vol: 3 p_{tot}:[1.6,2.4] GeV/c #theta:[40,60] mrad
+vol: 4 p_{tot}:[2.4,3.2] GeV/c #theta:[40,60] mrad
+vol: 5 p_{tot}:[3.2,4] GeV/c #theta:[40,60] mrad
+vol: 6 p_{tot}:[4,4.8] GeV/c #theta:[40,60] mrad
+vol: 7 p_{tot}:[4.8,5.6] GeV/c #theta:[40,60] mrad
+vol: 8 p_{tot}:[5.6,6.4] GeV/c #theta:[40,60] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 6.4 3 x 1.2
+1: [6.4, 7.6]
+2: [7.6, 8.8]
+3: [8.8, 10]
+var2 offset 40 1 x 20
+1: [40, 60]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 3
+vol: 1 p_{tot}:[6.4,7.6] GeV/c #theta:[40,60] mrad
+vol: 2 p_{tot}:[7.6,8.8] GeV/c #theta:[40,60] mrad
+vol: 3 p_{tot}:[8.8,10] GeV/c #theta:[40,60] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 10 9 x 1.6
+1: [10, 11.6]
+2: [11.6, 13.2]
+3: [13.2, 14.8]
+4: [14.8, 16.4]
+5: [16.4, 18]
+6: [18, 19.6]
+7: [19.6, 21.2]
+8: [21.2, 22.8]
+9: [22.8, 24.4]
+var2 offset 40 1 x 20
+1: [40, 60]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 9
+vol: 1 p_{tot}:[10,11.6] GeV/c #theta:[40,60] mrad
+vol: 2 p_{tot}:[11.6,13.2] GeV/c #theta:[40,60] mrad
+vol: 3 p_{tot}:[13.2,14.8] GeV/c #theta:[40,60] mrad
+vol: 4 p_{tot}:[14.8,16.4] GeV/c #theta:[40,60] mrad
+vol: 5 p_{tot}:[16.4,18] GeV/c #theta:[40,60] mrad
+vol: 6 p_{tot}:[18,19.6] GeV/c #theta:[40,60] mrad
+vol: 7 p_{tot}:[19.6,21.2] GeV/c #theta:[40,60] mrad
+vol: 8 p_{tot}:[21.2,22.8] GeV/c #theta:[40,60] mrad
+vol: 9 p_{tot}:[22.8,24.4] GeV/c #theta:[40,60] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 0 8 x 0.8
+1: [0, 0.8]
+2: [0.8, 1.6]
+3: [1.6, 2.4]
+4: [2.4, 3.2]
+5: [3.2, 4]
+6: [4, 4.8]
+7: [4.8, 5.6]
+8: [5.6, 6.4]
+var2 offset 60 1 x 40
+1: [60, 100]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 8
+vol: 1 p_{tot}:[0,0.8] GeV/c #theta:[60,100] mrad
+vol: 2 p_{tot}:[0.8,1.6] GeV/c #theta:[60,100] mrad
+vol: 3 p_{tot}:[1.6,2.4] GeV/c #theta:[60,100] mrad
+vol: 4 p_{tot}:[2.4,3.2] GeV/c #theta:[60,100] mrad
+vol: 5 p_{tot}:[3.2,4] GeV/c #theta:[60,100] mrad
+vol: 6 p_{tot}:[4,4.8] GeV/c #theta:[60,100] mrad
+vol: 7 p_{tot}:[4.8,5.6] GeV/c #theta:[60,100] mrad
+vol: 8 p_{tot}:[5.6,6.4] GeV/c #theta:[60,100] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 6.4 3 x 1.2
+1: [6.4, 7.6]
+2: [7.6, 8.8]
+3: [8.8, 10]
+var2 offset 60 1 x 40
+1: [60, 100]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 3
+vol: 1 p_{tot}:[6.4,7.6] GeV/c #theta:[60,100] mrad
+vol: 2 p_{tot}:[7.6,8.8] GeV/c #theta:[60,100] mrad
+vol: 3 p_{tot}:[8.8,10] GeV/c #theta:[60,100] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 10 9 x 1.6
+1: [10, 11.6]
+2: [11.6, 13.2]
+3: [13.2, 14.8]
+4: [14.8, 16.4]
+5: [16.4, 18]
+6: [18, 19.6]
+7: [19.6, 21.2]
+8: [21.2, 22.8]
+9: [22.8, 24.4]
+var2 offset 60 1 x 40
+1: [60, 100]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 9
+vol: 1 p_{tot}:[10,11.6] GeV/c #theta:[60,100] mrad
+vol: 2 p_{tot}:[11.6,13.2] GeV/c #theta:[60,100] mrad
+vol: 3 p_{tot}:[13.2,14.8] GeV/c #theta:[60,100] mrad
+vol: 4 p_{tot}:[14.8,16.4] GeV/c #theta:[60,100] mrad
+vol: 5 p_{tot}:[16.4,18] GeV/c #theta:[60,100] mrad
+vol: 6 p_{tot}:[18,19.6] GeV/c #theta:[60,100] mrad
+vol: 7 p_{tot}:[19.6,21.2] GeV/c #theta:[60,100] mrad
+vol: 8 p_{tot}:[21.2,22.8] GeV/c #theta:[60,100] mrad
+vol: 9 p_{tot}:[22.8,24.4] GeV/c #theta:[60,100] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 0 8 x 0.8
+1: [0, 0.8]
+2: [0.8, 1.6]
+3: [1.6, 2.4]
+4: [2.4, 3.2]
+5: [3.2, 4]
+6: [4, 4.8]
+7: [4.8, 5.6]
+8: [5.6, 6.4]
+var2 offset 100 1 x 40
+1: [100, 140]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 8
+vol: 1 p_{tot}:[0,0.8] GeV/c #theta:[100,140] mrad
+vol: 2 p_{tot}:[0.8,1.6] GeV/c #theta:[100,140] mrad
+vol: 3 p_{tot}:[1.6,2.4] GeV/c #theta:[100,140] mrad
+vol: 4 p_{tot}:[2.4,3.2] GeV/c #theta:[100,140] mrad
+vol: 5 p_{tot}:[3.2,4] GeV/c #theta:[100,140] mrad
+vol: 6 p_{tot}:[4,4.8] GeV/c #theta:[100,140] mrad
+vol: 7 p_{tot}:[4.8,5.6] GeV/c #theta:[100,140] mrad
+vol: 8 p_{tot}:[5.6,6.4] GeV/c #theta:[100,140] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 6.4 3 x 1.2
+1: [6.4, 7.6]
+2: [7.6, 8.8]
+3: [8.8, 10]
+var2 offset 100 1 x 40
+1: [100, 140]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 3
+vol: 1 p_{tot}:[6.4,7.6] GeV/c #theta:[100,140] mrad
+vol: 2 p_{tot}:[7.6,8.8] GeV/c #theta:[100,140] mrad
+vol: 3 p_{tot}:[8.8,10] GeV/c #theta:[100,140] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 10 9 x 1.6
+1: [10, 11.6]
+2: [11.6, 13.2]
+3: [13.2, 14.8]
+4: [14.8, 16.4]
+5: [16.4, 18]
+6: [18, 19.6]
+7: [19.6, 21.2]
+8: [21.2, 22.8]
+9: [22.8, 24.4]
+var2 offset 100 1 x 40
+1: [100, 140]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 9
+vol: 1 p_{tot}:[10,11.6] GeV/c #theta:[100,140] mrad
+vol: 2 p_{tot}:[11.6,13.2] GeV/c #theta:[100,140] mrad
+vol: 3 p_{tot}:[13.2,14.8] GeV/c #theta:[100,140] mrad
+vol: 4 p_{tot}:[14.8,16.4] GeV/c #theta:[100,140] mrad
+vol: 5 p_{tot}:[16.4,18] GeV/c #theta:[100,140] mrad
+vol: 6 p_{tot}:[18,19.6] GeV/c #theta:[100,140] mrad
+vol: 7 p_{tot}:[19.6,21.2] GeV/c #theta:[100,140] mrad
+vol: 8 p_{tot}:[21.2,22.8] GeV/c #theta:[100,140] mrad
+vol: 9 p_{tot}:[22.8,24.4] GeV/c #theta:[100,140] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 0 8 x 0.8
+1: [0, 0.8]
+2: [0.8, 1.6]
+3: [1.6, 2.4]
+4: [2.4, 3.2]
+5: [3.2, 4]
+6: [4, 4.8]
+7: [4.8, 5.6]
+8: [5.6, 6.4]
+var2 offset 140 1 x 40
+1: [140, 180]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 8
+vol: 1 p_{tot}:[0,0.8] GeV/c #theta:[140,180] mrad
+vol: 2 p_{tot}:[0.8,1.6] GeV/c #theta:[140,180] mrad
+vol: 3 p_{tot}:[1.6,2.4] GeV/c #theta:[140,180] mrad
+vol: 4 p_{tot}:[2.4,3.2] GeV/c #theta:[140,180] mrad
+vol: 5 p_{tot}:[3.2,4] GeV/c #theta:[140,180] mrad
+vol: 6 p_{tot}:[4,4.8] GeV/c #theta:[140,180] mrad
+vol: 7 p_{tot}:[4.8,5.6] GeV/c #theta:[140,180] mrad
+vol: 8 p_{tot}:[5.6,6.4] GeV/c #theta:[140,180] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 6.4 3 x 1.2
+1: [6.4, 7.6]
+2: [7.6, 8.8]
+3: [8.8, 10]
+var2 offset 140 1 x 40
+1: [140, 180]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 3
+vol: 1 p_{tot}:[6.4,7.6] GeV/c #theta:[140,180] mrad
+vol: 2 p_{tot}:[7.6,8.8] GeV/c #theta:[140,180] mrad
+vol: 3 p_{tot}:[8.8,10] GeV/c #theta:[140,180] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 0 8 x 0.8
+1: [0, 0.8]
+2: [0.8, 1.6]
+3: [1.6, 2.4]
+4: [2.4, 3.2]
+5: [3.2, 4]
+6: [4, 4.8]
+7: [4.8, 5.6]
+8: [5.6, 6.4]
+var2 offset 180 1 x 60
+1: [180, 240]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 8
+vol: 1 p_{tot}:[0,0.8] GeV/c #theta:[180,240] mrad
+vol: 2 p_{tot}:[0.8,1.6] GeV/c #theta:[180,240] mrad
+vol: 3 p_{tot}:[1.6,2.4] GeV/c #theta:[180,240] mrad
+vol: 4 p_{tot}:[2.4,3.2] GeV/c #theta:[180,240] mrad
+vol: 5 p_{tot}:[3.2,4] GeV/c #theta:[180,240] mrad
+vol: 6 p_{tot}:[4,4.8] GeV/c #theta:[180,240] mrad
+vol: 7 p_{tot}:[4.8,5.6] GeV/c #theta:[180,240] mrad
+vol: 8 p_{tot}:[5.6,6.4] GeV/c #theta:[180,240] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 6.4 1 x 1.2
+1: [6.4, 7.6]
+var2 offset 180 1 x 60
+1: [180, 240]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 1
+vol: 1 p_{tot}:[6.4,7.6] GeV/c #theta:[180,240] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 0 7 x 0.8
+1: [0, 0.8]
+2: [0.8, 1.6]
+3: [1.6, 2.4]
+4: [2.4, 3.2]
+5: [3.2, 4]
+6: [4, 4.8]
+7: [4.8, 5.6]
+var2 offset 240 1 x 60
+1: [240, 300]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 7
+vol: 1 p_{tot}:[0,0.8] GeV/c #theta:[240,300] mrad
+vol: 2 p_{tot}:[0.8,1.6] GeV/c #theta:[240,300] mrad
+vol: 3 p_{tot}:[1.6,2.4] GeV/c #theta:[240,300] mrad
+vol: 4 p_{tot}:[2.4,3.2] GeV/c #theta:[240,300] mrad
+vol: 5 p_{tot}:[3.2,4] GeV/c #theta:[240,300] mrad
+vol: 6 p_{tot}:[4,4.8] GeV/c #theta:[240,300] mrad
+vol: 7 p_{tot}:[4.8,5.6] GeV/c #theta:[240,300] mrad
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 0 5 x 0.8
+1: [0, 0.8]
+2: [0.8, 1.6]
+3: [1.6, 2.4]
+4: [2.4, 3.2]
+5: [3.2, 4]
+var2 offset 300 1 x 60
+1: [300, 360]
+not Binned in this map: axis 2 Theta
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 5
+vol: 1 p_{tot}:[0,0.8] GeV/c #theta:[300,360] mrad
+vol: 2 p_{tot}:[0.8,1.6] GeV/c #theta:[300,360] mrad
+vol: 3 p_{tot}:[1.6,2.4] GeV/c #theta:[300,360] mrad
+vol: 4 p_{tot}:[2.4,3.2] GeV/c #theta:[300,360] mrad
+vol: 5 p_{tot}:[3.2,4] GeV/c #theta:[300,360] mrad
+==== PhaseSpaceMap:  ==== end =====
+Theta Theta
+Mom Mom
+var1 offset 50 20 x 10
+1: [50, 60]
+2: [60, 70]
+3: [70, 80]
+4: [80, 90]
+5: [90, 100]
+6: [100, 110]
+7: [110, 120]
+8: [120, 130]
+9: [130, 140]
+10: [140, 150]
+11: [150, 160]
+12: [160, 170]
+13: [170, 180]
+14: [180, 190]
+15: [190, 200]
+16: [200, 210]
+17: [210, 220]
+18: [220, 230]
+19: [230, 240]
+20: [240, 250]
+var2 offset 1 3 x 2
+1: [1, 3]
+2: [3, 5]
+3: [5, 7]
+not Binned in this map: axis 2 Mom
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Theta
+2 Mom
+
+Number of Volumes: 60
+vol: 1 #theta:[50,60] mrad p_{tot}:[1,3] GeV/c
+vol: 2 #theta:[60,70] mrad p_{tot}:[1,3] GeV/c
+vol: 3 #theta:[70,80] mrad p_{tot}:[1,3] GeV/c
+vol: 4 #theta:[80,90] mrad p_{tot}:[1,3] GeV/c
+vol: 5 #theta:[90,100] mrad p_{tot}:[1,3] GeV/c
+vol: 6 #theta:[100,110] mrad p_{tot}:[1,3] GeV/c
+vol: 7 #theta:[110,120] mrad p_{tot}:[1,3] GeV/c
+vol: 8 #theta:[120,130] mrad p_{tot}:[1,3] GeV/c
+vol: 9 #theta:[130,140] mrad p_{tot}:[1,3] GeV/c
+vol: 10 #theta:[140,150] mrad p_{tot}:[1,3] GeV/c
+vol: 11 #theta:[150,160] mrad p_{tot}:[1,3] GeV/c
+vol: 12 #theta:[160,170] mrad p_{tot}:[1,3] GeV/c
+vol: 13 #theta:[170,180] mrad p_{tot}:[1,3] GeV/c
+vol: 14 #theta:[180,190] mrad p_{tot}:[1,3] GeV/c
+vol: 15 #theta:[190,200] mrad p_{tot}:[1,3] GeV/c
+vol: 16 #theta:[200,210] mrad p_{tot}:[1,3] GeV/c
+vol: 17 #theta:[210,220] mrad p_{tot}:[1,3] GeV/c
+vol: 18 #theta:[220,230] mrad p_{tot}:[1,3] GeV/c
+vol: 19 #theta:[230,240] mrad p_{tot}:[1,3] GeV/c
+vol: 20 #theta:[240,250] mrad p_{tot}:[1,3] GeV/c
+vol: 21 #theta:[50,60] mrad p_{tot}:[3,5] GeV/c
+vol: 22 #theta:[50,60] mrad p_{tot}:[5,7] GeV/c
+vol: 23 #theta:[60,70] mrad p_{tot}:[3,5] GeV/c
+vol: 24 #theta:[60,70] mrad p_{tot}:[5,7] GeV/c
+vol: 25 #theta:[70,80] mrad p_{tot}:[3,5] GeV/c
+vol: 26 #theta:[70,80] mrad p_{tot}:[5,7] GeV/c
+vol: 27 #theta:[80,90] mrad p_{tot}:[3,5] GeV/c
+vol: 28 #theta:[80,90] mrad p_{tot}:[5,7] GeV/c
+vol: 29 #theta:[90,100] mrad p_{tot}:[3,5] GeV/c
+vol: 30 #theta:[90,100] mrad p_{tot}:[5,7] GeV/c
+vol: 31 #theta:[100,110] mrad p_{tot}:[3,5] GeV/c
+vol: 32 #theta:[100,110] mrad p_{tot}:[5,7] GeV/c
+vol: 33 #theta:[110,120] mrad p_{tot}:[3,5] GeV/c
+vol: 34 #theta:[110,120] mrad p_{tot}:[5,7] GeV/c
+vol: 35 #theta:[120,130] mrad p_{tot}:[3,5] GeV/c
+vol: 36 #theta:[120,130] mrad p_{tot}:[5,7] GeV/c
+vol: 37 #theta:[130,140] mrad p_{tot}:[3,5] GeV/c
+vol: 38 #theta:[130,140] mrad p_{tot}:[5,7] GeV/c
+vol: 39 #theta:[140,150] mrad p_{tot}:[3,5] GeV/c
+vol: 40 #theta:[140,150] mrad p_{tot}:[5,7] GeV/c
+vol: 41 #theta:[150,160] mrad p_{tot}:[3,5] GeV/c
+vol: 42 #theta:[150,160] mrad p_{tot}:[5,7] GeV/c
+vol: 43 #theta:[160,170] mrad p_{tot}:[3,5] GeV/c
+vol: 44 #theta:[160,170] mrad p_{tot}:[5,7] GeV/c
+vol: 45 #theta:[170,180] mrad p_{tot}:[3,5] GeV/c
+vol: 46 #theta:[170,180] mrad p_{tot}:[5,7] GeV/c
+vol: 47 #theta:[180,190] mrad p_{tot}:[3,5] GeV/c
+vol: 48 #theta:[180,190] mrad p_{tot}:[5,7] GeV/c
+vol: 49 #theta:[190,200] mrad p_{tot}:[3,5] GeV/c
+vol: 50 #theta:[190,200] mrad p_{tot}:[5,7] GeV/c
+vol: 51 #theta:[200,210] mrad p_{tot}:[3,5] GeV/c
+vol: 52 #theta:[200,210] mrad p_{tot}:[5,7] GeV/c
+vol: 53 #theta:[210,220] mrad p_{tot}:[3,5] GeV/c
+vol: 54 #theta:[210,220] mrad p_{tot}:[5,7] GeV/c
+vol: 55 #theta:[220,230] mrad p_{tot}:[3,5] GeV/c
+vol: 56 #theta:[220,230] mrad p_{tot}:[5,7] GeV/c
+vol: 57 #theta:[230,240] mrad p_{tot}:[3,5] GeV/c
+vol: 58 #theta:[230,240] mrad p_{tot}:[5,7] GeV/c
+vol: 59 #theta:[240,250] mrad p_{tot}:[3,5] GeV/c
+vol: 60 #theta:[240,250] mrad p_{tot}:[5,7] GeV/c
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 5 20 x 5
+1: [5, 10]
+2: [10, 15]
+3: [15, 20]
+4: [20, 25]
+5: [25, 30]
+6: [30, 35]
+7: [35, 40]
+8: [40, 45]
+9: [45, 50]
+10: [50, 55]
+11: [55, 60]
+12: [60, 65]
+13: [65, 70]
+14: [70, 75]
+15: [75, 80]
+16: [80, 85]
+17: [85, 90]
+18: [90, 95]
+19: [95, 100]
+20: [100, 105]
+var2 offset 10 5 x 2
+1: [10, 12]
+2: [12, 14]
+3: [14, 16]
+4: [16, 18]
+5: [18, 20]
+not Binned in this map: axis 2 Mom
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Theta
+2 Mom
+
+Number of Volumes: 100
+vol: 1 #theta:[5,10] mrad p_{tot}:[10,12] GeV/c
+vol: 2 #theta:[10,15] mrad p_{tot}:[10,12] GeV/c
+vol: 3 #theta:[15,20] mrad p_{tot}:[10,12] GeV/c
+vol: 4 #theta:[20,25] mrad p_{tot}:[10,12] GeV/c
+vol: 5 #theta:[25,30] mrad p_{tot}:[10,12] GeV/c
+vol: 6 #theta:[30,35] mrad p_{tot}:[10,12] GeV/c
+vol: 7 #theta:[35,40] mrad p_{tot}:[10,12] GeV/c
+vol: 8 #theta:[40,45] mrad p_{tot}:[10,12] GeV/c
+vol: 9 #theta:[45,50] mrad p_{tot}:[10,12] GeV/c
+vol: 10 #theta:[50,55] mrad p_{tot}:[10,12] GeV/c
+vol: 11 #theta:[55,60] mrad p_{tot}:[10,12] GeV/c
+vol: 12 #theta:[60,65] mrad p_{tot}:[10,12] GeV/c
+vol: 13 #theta:[65,70] mrad p_{tot}:[10,12] GeV/c
+vol: 14 #theta:[70,75] mrad p_{tot}:[10,12] GeV/c
+vol: 15 #theta:[75,80] mrad p_{tot}:[10,12] GeV/c
+vol: 16 #theta:[80,85] mrad p_{tot}:[10,12] GeV/c
+vol: 17 #theta:[85,90] mrad p_{tot}:[10,12] GeV/c
+vol: 18 #theta:[90,95] mrad p_{tot}:[10,12] GeV/c
+vol: 19 #theta:[95,100] mrad p_{tot}:[10,12] GeV/c
+vol: 20 #theta:[100,105] mrad p_{tot}:[10,12] GeV/c
+vol: 21 #theta:[5,10] mrad p_{tot}:[12,14] GeV/c
+vol: 22 #theta:[5,10] mrad p_{tot}:[14,16] GeV/c
+vol: 23 #theta:[5,10] mrad p_{tot}:[16,18] GeV/c
+vol: 24 #theta:[5,10] mrad p_{tot}:[18,20] GeV/c
+vol: 25 #theta:[10,15] mrad p_{tot}:[12,14] GeV/c
+vol: 26 #theta:[10,15] mrad p_{tot}:[14,16] GeV/c
+vol: 27 #theta:[10,15] mrad p_{tot}:[16,18] GeV/c
+vol: 28 #theta:[10,15] mrad p_{tot}:[18,20] GeV/c
+vol: 29 #theta:[15,20] mrad p_{tot}:[12,14] GeV/c
+vol: 30 #theta:[15,20] mrad p_{tot}:[14,16] GeV/c
+vol: 31 #theta:[15,20] mrad p_{tot}:[16,18] GeV/c
+vol: 32 #theta:[15,20] mrad p_{tot}:[18,20] GeV/c
+vol: 33 #theta:[20,25] mrad p_{tot}:[12,14] GeV/c
+vol: 34 #theta:[20,25] mrad p_{tot}:[14,16] GeV/c
+vol: 35 #theta:[20,25] mrad p_{tot}:[16,18] GeV/c
+vol: 36 #theta:[20,25] mrad p_{tot}:[18,20] GeV/c
+vol: 37 #theta:[25,30] mrad p_{tot}:[12,14] GeV/c
+vol: 38 #theta:[25,30] mrad p_{tot}:[14,16] GeV/c
+vol: 39 #theta:[25,30] mrad p_{tot}:[16,18] GeV/c
+vol: 40 #theta:[25,30] mrad p_{tot}:[18,20] GeV/c
+vol: 41 #theta:[30,35] mrad p_{tot}:[12,14] GeV/c
+vol: 42 #theta:[30,35] mrad p_{tot}:[14,16] GeV/c
+vol: 43 #theta:[30,35] mrad p_{tot}:[16,18] GeV/c
+vol: 44 #theta:[30,35] mrad p_{tot}:[18,20] GeV/c
+vol: 45 #theta:[35,40] mrad p_{tot}:[12,14] GeV/c
+vol: 46 #theta:[35,40] mrad p_{tot}:[14,16] GeV/c
+vol: 47 #theta:[35,40] mrad p_{tot}:[16,18] GeV/c
+vol: 48 #theta:[35,40] mrad p_{tot}:[18,20] GeV/c
+vol: 49 #theta:[40,45] mrad p_{tot}:[12,14] GeV/c
+vol: 50 #theta:[40,45] mrad p_{tot}:[14,16] GeV/c
+vol: 51 #theta:[40,45] mrad p_{tot}:[16,18] GeV/c
+vol: 52 #theta:[40,45] mrad p_{tot}:[18,20] GeV/c
+vol: 53 #theta:[45,50] mrad p_{tot}:[12,14] GeV/c
+vol: 54 #theta:[45,50] mrad p_{tot}:[14,16] GeV/c
+vol: 55 #theta:[45,50] mrad p_{tot}:[16,18] GeV/c
+vol: 56 #theta:[45,50] mrad p_{tot}:[18,20] GeV/c
+vol: 57 #theta:[50,55] mrad p_{tot}:[12,14] GeV/c
+vol: 58 #theta:[50,55] mrad p_{tot}:[14,16] GeV/c
+vol: 59 #theta:[50,55] mrad p_{tot}:[16,18] GeV/c
+vol: 60 #theta:[50,55] mrad p_{tot}:[18,20] GeV/c
+vol: 61 #theta:[55,60] mrad p_{tot}:[12,14] GeV/c
+vol: 62 #theta:[55,60] mrad p_{tot}:[14,16] GeV/c
+vol: 63 #theta:[55,60] mrad p_{tot}:[16,18] GeV/c
+vol: 64 #theta:[55,60] mrad p_{tot}:[18,20] GeV/c
+vol: 65 #theta:[60,65] mrad p_{tot}:[12,14] GeV/c
+vol: 66 #theta:[60,65] mrad p_{tot}:[14,16] GeV/c
+vol: 67 #theta:[60,65] mrad p_{tot}:[16,18] GeV/c
+vol: 68 #theta:[60,65] mrad p_{tot}:[18,20] GeV/c
+vol: 69 #theta:[65,70] mrad p_{tot}:[12,14] GeV/c
+vol: 70 #theta:[65,70] mrad p_{tot}:[14,16] GeV/c
+vol: 71 #theta:[65,70] mrad p_{tot}:[16,18] GeV/c
+vol: 72 #theta:[65,70] mrad p_{tot}:[18,20] GeV/c
+vol: 73 #theta:[70,75] mrad p_{tot}:[12,14] GeV/c
+vol: 74 #theta:[70,75] mrad p_{tot}:[14,16] GeV/c
+vol: 75 #theta:[70,75] mrad p_{tot}:[16,18] GeV/c
+vol: 76 #theta:[70,75] mrad p_{tot}:[18,20] GeV/c
+vol: 77 #theta:[75,80] mrad p_{tot}:[12,14] GeV/c
+vol: 78 #theta:[75,80] mrad p_{tot}:[14,16] GeV/c
+vol: 79 #theta:[75,80] mrad p_{tot}:[16,18] GeV/c
+vol: 80 #theta:[75,80] mrad p_{tot}:[18,20] GeV/c
+vol: 81 #theta:[80,85] mrad p_{tot}:[12,14] GeV/c
+vol: 82 #theta:[80,85] mrad p_{tot}:[14,16] GeV/c
+vol: 83 #theta:[80,85] mrad p_{tot}:[16,18] GeV/c
+vol: 84 #theta:[80,85] mrad p_{tot}:[18,20] GeV/c
+vol: 85 #theta:[85,90] mrad p_{tot}:[12,14] GeV/c
+vol: 86 #theta:[85,90] mrad p_{tot}:[14,16] GeV/c
+vol: 87 #theta:[85,90] mrad p_{tot}:[16,18] GeV/c
+vol: 88 #theta:[85,90] mrad p_{tot}:[18,20] GeV/c
+vol: 89 #theta:[90,95] mrad p_{tot}:[12,14] GeV/c
+vol: 90 #theta:[90,95] mrad p_{tot}:[14,16] GeV/c
+vol: 91 #theta:[90,95] mrad p_{tot}:[16,18] GeV/c
+vol: 92 #theta:[90,95] mrad p_{tot}:[18,20] GeV/c
+vol: 93 #theta:[95,100] mrad p_{tot}:[12,14] GeV/c
+vol: 94 #theta:[95,100] mrad p_{tot}:[14,16] GeV/c
+vol: 95 #theta:[95,100] mrad p_{tot}:[16,18] GeV/c
+vol: 96 #theta:[95,100] mrad p_{tot}:[18,20] GeV/c
+vol: 97 #theta:[100,105] mrad p_{tot}:[12,14] GeV/c
+vol: 98 #theta:[100,105] mrad p_{tot}:[14,16] GeV/c
+vol: 99 #theta:[100,105] mrad p_{tot}:[16,18] GeV/c
+vol: 100 #theta:[100,105] mrad p_{tot}:[18,20] GeV/c
+==== PhaseSpaceMap:  ==== end =====
+var1 offset 300 2 x 50
+1: [300, 350]
+2: [350, 400]
+var2 offset 8 3 x 3
+1: [8, 11]
+2: [11, 14]
+3: [14, 17]
+not Binned in this map: axis 2 Mom
+
+==== PhaseSpaceMap   ======
+Dimension 2
+Axis Variables 
+1 Theta
+2 Mom
+
+Number of Volumes: 6
+vol: 1 #theta:[300,350] mrad p_{tot}:[8,11] GeV/c
+vol: 2 #theta:[350,400] mrad p_{tot}:[8,11] GeV/c
+vol: 3 #theta:[300,350] mrad p_{tot}:[11,14] GeV/c
+vol: 4 #theta:[300,350] mrad p_{tot}:[14,17] GeV/c
+vol: 5 #theta:[350,400] mrad p_{tot}:[11,14] GeV/c
+vol: 6 #theta:[350,400] mrad p_{tot}:[14,17] GeV/c
+==== PhaseSpaceMap:  ==== end =====
+not Binned in this map: axis 3 ZTarg
+
+==== PhaseSpaceMap mapKin3D map Theta-Mom-Z ======
+Dimension 3
+Axis Variables 
+1 Theta
+2 Mom
+3 ZTarg
+
+Number of Volumes: 498
+vol: 1 #theta:[50,60] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 2 #theta:[60,70] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 3 #theta:[70,80] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 4 #theta:[80,90] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 5 #theta:[90,100] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 6 #theta:[100,110] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 7 #theta:[110,120] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 8 #theta:[120,130] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 9 #theta:[130,140] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 10 #theta:[140,150] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 11 #theta:[150,160] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 12 #theta:[160,170] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 13 #theta:[170,180] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 14 #theta:[180,190] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 15 #theta:[190,200] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 16 #theta:[200,210] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 17 #theta:[210,220] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 18 #theta:[220,230] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 19 #theta:[230,240] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 20 #theta:[240,250] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm
+vol: 21 #theta:[50,60] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 22 #theta:[50,60] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 23 #theta:[60,70] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 24 #theta:[60,70] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 25 #theta:[70,80] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 26 #theta:[70,80] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 27 #theta:[80,90] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 28 #theta:[80,90] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 29 #theta:[90,100] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 30 #theta:[90,100] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 31 #theta:[100,110] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 32 #theta:[100,110] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 33 #theta:[110,120] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 34 #theta:[110,120] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 35 #theta:[120,130] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 36 #theta:[120,130] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 37 #theta:[130,140] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 38 #theta:[130,140] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 39 #theta:[140,150] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 40 #theta:[140,150] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 41 #theta:[150,160] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 42 #theta:[150,160] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 43 #theta:[160,170] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 44 #theta:[160,170] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 45 #theta:[170,180] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 46 #theta:[170,180] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 47 #theta:[180,190] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 48 #theta:[180,190] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 49 #theta:[190,200] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 50 #theta:[190,200] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 51 #theta:[200,210] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 52 #theta:[200,210] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 53 #theta:[210,220] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 54 #theta:[210,220] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 55 #theta:[220,230] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 56 #theta:[220,230] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 57 #theta:[230,240] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 58 #theta:[230,240] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 59 #theta:[240,250] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm
+vol: 60 #theta:[240,250] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm
+vol: 61 #theta:[5,10] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 62 #theta:[10,15] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 63 #theta:[15,20] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 64 #theta:[20,25] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 65 #theta:[25,30] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 66 #theta:[30,35] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 67 #theta:[35,40] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 68 #theta:[40,45] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 69 #theta:[45,50] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 70 #theta:[50,55] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 71 #theta:[55,60] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 72 #theta:[60,65] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 73 #theta:[65,70] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 74 #theta:[70,75] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 75 #theta:[75,80] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 76 #theta:[80,85] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 77 #theta:[85,90] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 78 #theta:[90,95] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 79 #theta:[95,100] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 80 #theta:[100,105] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm
+vol: 81 #theta:[5,10] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 82 #theta:[5,10] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 83 #theta:[5,10] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 84 #theta:[5,10] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 85 #theta:[10,15] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 86 #theta:[10,15] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 87 #theta:[10,15] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 88 #theta:[10,15] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 89 #theta:[15,20] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 90 #theta:[15,20] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 91 #theta:[15,20] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 92 #theta:[15,20] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 93 #theta:[20,25] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 94 #theta:[20,25] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 95 #theta:[20,25] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 96 #theta:[20,25] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 97 #theta:[25,30] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 98 #theta:[25,30] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 99 #theta:[25,30] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 100 #theta:[25,30] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 101 #theta:[30,35] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 102 #theta:[30,35] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 103 #theta:[30,35] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 104 #theta:[30,35] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 105 #theta:[35,40] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 106 #theta:[35,40] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 107 #theta:[35,40] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 108 #theta:[35,40] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 109 #theta:[40,45] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 110 #theta:[40,45] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 111 #theta:[40,45] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 112 #theta:[40,45] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 113 #theta:[45,50] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 114 #theta:[45,50] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 115 #theta:[45,50] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 116 #theta:[45,50] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 117 #theta:[50,55] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 118 #theta:[50,55] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 119 #theta:[50,55] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 120 #theta:[50,55] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 121 #theta:[55,60] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 122 #theta:[55,60] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 123 #theta:[55,60] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 124 #theta:[55,60] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 125 #theta:[60,65] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 126 #theta:[60,65] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 127 #theta:[60,65] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 128 #theta:[60,65] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 129 #theta:[65,70] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 130 #theta:[65,70] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 131 #theta:[65,70] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 132 #theta:[65,70] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 133 #theta:[70,75] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 134 #theta:[70,75] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 135 #theta:[70,75] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 136 #theta:[70,75] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 137 #theta:[75,80] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 138 #theta:[75,80] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 139 #theta:[75,80] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 140 #theta:[75,80] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 141 #theta:[80,85] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 142 #theta:[80,85] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 143 #theta:[80,85] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 144 #theta:[80,85] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 145 #theta:[85,90] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 146 #theta:[85,90] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 147 #theta:[85,90] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 148 #theta:[85,90] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 149 #theta:[90,95] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 150 #theta:[90,95] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 151 #theta:[90,95] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 152 #theta:[90,95] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 153 #theta:[95,100] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 154 #theta:[95,100] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 155 #theta:[95,100] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 156 #theta:[95,100] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 157 #theta:[100,105] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm
+vol: 158 #theta:[100,105] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm
+vol: 159 #theta:[100,105] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm
+vol: 160 #theta:[100,105] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm
+vol: 161 #theta:[300,350] mrad p_{tot}:[8,11] GeV/c z_{targ}:[0,30] cm
+vol: 162 #theta:[350,400] mrad p_{tot}:[8,11] GeV/c z_{targ}:[0,30] cm
+vol: 163 #theta:[300,350] mrad p_{tot}:[11,14] GeV/c z_{targ}:[0,30] cm
+vol: 164 #theta:[300,350] mrad p_{tot}:[14,17] GeV/c z_{targ}:[0,30] cm
+vol: 165 #theta:[350,400] mrad p_{tot}:[11,14] GeV/c z_{targ}:[0,30] cm
+vol: 166 #theta:[350,400] mrad p_{tot}:[14,17] GeV/c z_{targ}:[0,30] cm
+vol: 167 #theta:[50,60] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 168 #theta:[50,60] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 169 #theta:[60,70] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 170 #theta:[60,70] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 171 #theta:[70,80] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 172 #theta:[70,80] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 173 #theta:[80,90] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 174 #theta:[80,90] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 175 #theta:[90,100] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 176 #theta:[90,100] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 177 #theta:[100,110] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 178 #theta:[100,110] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 179 #theta:[110,120] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 180 #theta:[110,120] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 181 #theta:[120,130] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 182 #theta:[120,130] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 183 #theta:[130,140] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 184 #theta:[130,140] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 185 #theta:[140,150] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 186 #theta:[140,150] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 187 #theta:[150,160] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 188 #theta:[150,160] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 189 #theta:[160,170] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 190 #theta:[160,170] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 191 #theta:[170,180] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 192 #theta:[170,180] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 193 #theta:[180,190] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 194 #theta:[180,190] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 195 #theta:[190,200] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 196 #theta:[190,200] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 197 #theta:[200,210] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 198 #theta:[200,210] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 199 #theta:[210,220] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 200 #theta:[210,220] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 201 #theta:[220,230] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 202 #theta:[220,230] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 203 #theta:[230,240] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 204 #theta:[230,240] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 205 #theta:[240,250] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm
+vol: 206 #theta:[240,250] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm
+vol: 207 #theta:[50,60] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 208 #theta:[50,60] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 209 #theta:[50,60] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 210 #theta:[50,60] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 211 #theta:[60,70] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 212 #theta:[60,70] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 213 #theta:[60,70] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 214 #theta:[60,70] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 215 #theta:[70,80] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 216 #theta:[70,80] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 217 #theta:[70,80] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 218 #theta:[70,80] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 219 #theta:[80,90] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 220 #theta:[80,90] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 221 #theta:[80,90] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 222 #theta:[80,90] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 223 #theta:[90,100] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 224 #theta:[90,100] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 225 #theta:[90,100] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 226 #theta:[90,100] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 227 #theta:[100,110] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 228 #theta:[100,110] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 229 #theta:[100,110] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 230 #theta:[100,110] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 231 #theta:[110,120] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 232 #theta:[110,120] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 233 #theta:[110,120] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 234 #theta:[110,120] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 235 #theta:[120,130] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 236 #theta:[120,130] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 237 #theta:[120,130] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 238 #theta:[120,130] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 239 #theta:[130,140] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 240 #theta:[130,140] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 241 #theta:[130,140] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 242 #theta:[130,140] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 243 #theta:[140,150] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 244 #theta:[140,150] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 245 #theta:[140,150] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 246 #theta:[140,150] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 247 #theta:[150,160] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 248 #theta:[150,160] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 249 #theta:[150,160] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 250 #theta:[150,160] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 251 #theta:[160,170] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 252 #theta:[160,170] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 253 #theta:[160,170] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 254 #theta:[160,170] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 255 #theta:[170,180] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 256 #theta:[170,180] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 257 #theta:[170,180] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 258 #theta:[170,180] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 259 #theta:[180,190] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 260 #theta:[180,190] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 261 #theta:[180,190] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 262 #theta:[180,190] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 263 #theta:[190,200] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 264 #theta:[190,200] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 265 #theta:[190,200] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 266 #theta:[190,200] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 267 #theta:[200,210] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 268 #theta:[200,210] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 269 #theta:[200,210] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 270 #theta:[200,210] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 271 #theta:[210,220] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 272 #theta:[210,220] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 273 #theta:[210,220] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 274 #theta:[210,220] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 275 #theta:[220,230] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 276 #theta:[220,230] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 277 #theta:[220,230] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 278 #theta:[220,230] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 279 #theta:[230,240] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 280 #theta:[230,240] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 281 #theta:[230,240] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 282 #theta:[230,240] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 283 #theta:[240,250] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm
+vol: 284 #theta:[240,250] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm
+vol: 285 #theta:[240,250] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm
+vol: 286 #theta:[240,250] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm
+vol: 287 #theta:[5,10] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 288 #theta:[5,10] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 289 #theta:[10,15] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 290 #theta:[10,15] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 291 #theta:[15,20] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 292 #theta:[15,20] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 293 #theta:[20,25] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 294 #theta:[20,25] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 295 #theta:[25,30] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 296 #theta:[25,30] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 297 #theta:[30,35] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 298 #theta:[30,35] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 299 #theta:[35,40] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 300 #theta:[35,40] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 301 #theta:[40,45] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 302 #theta:[40,45] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 303 #theta:[45,50] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 304 #theta:[45,50] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 305 #theta:[50,55] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 306 #theta:[50,55] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 307 #theta:[55,60] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 308 #theta:[55,60] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 309 #theta:[60,65] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 310 #theta:[60,65] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 311 #theta:[65,70] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 312 #theta:[65,70] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 313 #theta:[70,75] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 314 #theta:[70,75] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 315 #theta:[75,80] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 316 #theta:[75,80] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 317 #theta:[80,85] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 318 #theta:[80,85] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 319 #theta:[85,90] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 320 #theta:[85,90] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 321 #theta:[90,95] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 322 #theta:[90,95] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 323 #theta:[95,100] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 324 #theta:[95,100] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 325 #theta:[100,105] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm
+vol: 326 #theta:[100,105] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm
+vol: 327 #theta:[5,10] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 328 #theta:[5,10] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 329 #theta:[5,10] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 330 #theta:[5,10] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 331 #theta:[5,10] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 332 #theta:[5,10] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 333 #theta:[5,10] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 334 #theta:[5,10] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 335 #theta:[10,15] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 336 #theta:[10,15] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 337 #theta:[10,15] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 338 #theta:[10,15] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 339 #theta:[10,15] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 340 #theta:[10,15] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 341 #theta:[10,15] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 342 #theta:[10,15] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 343 #theta:[15,20] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 344 #theta:[15,20] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 345 #theta:[15,20] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 346 #theta:[15,20] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 347 #theta:[15,20] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 348 #theta:[15,20] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 349 #theta:[15,20] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 350 #theta:[15,20] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 351 #theta:[20,25] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 352 #theta:[20,25] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 353 #theta:[20,25] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 354 #theta:[20,25] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 355 #theta:[20,25] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 356 #theta:[20,25] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 357 #theta:[20,25] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 358 #theta:[20,25] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 359 #theta:[25,30] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 360 #theta:[25,30] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 361 #theta:[25,30] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 362 #theta:[25,30] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 363 #theta:[25,30] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 364 #theta:[25,30] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 365 #theta:[25,30] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 366 #theta:[25,30] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 367 #theta:[30,35] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 368 #theta:[30,35] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 369 #theta:[30,35] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 370 #theta:[30,35] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 371 #theta:[30,35] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 372 #theta:[30,35] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 373 #theta:[30,35] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 374 #theta:[30,35] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 375 #theta:[35,40] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 376 #theta:[35,40] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 377 #theta:[35,40] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 378 #theta:[35,40] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 379 #theta:[35,40] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 380 #theta:[35,40] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 381 #theta:[35,40] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 382 #theta:[35,40] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 383 #theta:[40,45] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 384 #theta:[40,45] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 385 #theta:[40,45] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 386 #theta:[40,45] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 387 #theta:[40,45] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 388 #theta:[40,45] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 389 #theta:[40,45] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 390 #theta:[40,45] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 391 #theta:[45,50] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 392 #theta:[45,50] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 393 #theta:[45,50] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 394 #theta:[45,50] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 395 #theta:[45,50] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 396 #theta:[45,50] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 397 #theta:[45,50] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 398 #theta:[45,50] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 399 #theta:[50,55] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 400 #theta:[50,55] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 401 #theta:[50,55] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 402 #theta:[50,55] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 403 #theta:[50,55] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 404 #theta:[50,55] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 405 #theta:[50,55] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 406 #theta:[50,55] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 407 #theta:[55,60] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 408 #theta:[55,60] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 409 #theta:[55,60] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 410 #theta:[55,60] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 411 #theta:[55,60] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 412 #theta:[55,60] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 413 #theta:[55,60] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 414 #theta:[55,60] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 415 #theta:[60,65] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 416 #theta:[60,65] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 417 #theta:[60,65] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 418 #theta:[60,65] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 419 #theta:[60,65] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 420 #theta:[60,65] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 421 #theta:[60,65] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 422 #theta:[60,65] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 423 #theta:[65,70] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 424 #theta:[65,70] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 425 #theta:[65,70] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 426 #theta:[65,70] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 427 #theta:[65,70] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 428 #theta:[65,70] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 429 #theta:[65,70] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 430 #theta:[65,70] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 431 #theta:[70,75] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 432 #theta:[70,75] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 433 #theta:[70,75] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 434 #theta:[70,75] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 435 #theta:[70,75] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 436 #theta:[70,75] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 437 #theta:[70,75] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 438 #theta:[70,75] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 439 #theta:[75,80] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 440 #theta:[75,80] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 441 #theta:[75,80] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 442 #theta:[75,80] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 443 #theta:[75,80] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 444 #theta:[75,80] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 445 #theta:[75,80] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 446 #theta:[75,80] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 447 #theta:[80,85] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 448 #theta:[80,85] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 449 #theta:[80,85] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 450 #theta:[80,85] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 451 #theta:[80,85] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 452 #theta:[80,85] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 453 #theta:[80,85] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 454 #theta:[80,85] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 455 #theta:[85,90] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 456 #theta:[85,90] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 457 #theta:[85,90] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 458 #theta:[85,90] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 459 #theta:[85,90] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 460 #theta:[85,90] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 461 #theta:[85,90] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 462 #theta:[85,90] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 463 #theta:[90,95] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 464 #theta:[90,95] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 465 #theta:[90,95] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 466 #theta:[90,95] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 467 #theta:[90,95] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 468 #theta:[90,95] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 469 #theta:[90,95] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 470 #theta:[90,95] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 471 #theta:[95,100] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 472 #theta:[95,100] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 473 #theta:[95,100] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 474 #theta:[95,100] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 475 #theta:[95,100] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 476 #theta:[95,100] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 477 #theta:[95,100] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 478 #theta:[95,100] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 479 #theta:[100,105] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm
+vol: 480 #theta:[100,105] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm
+vol: 481 #theta:[100,105] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm
+vol: 482 #theta:[100,105] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm
+vol: 483 #theta:[100,105] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm
+vol: 484 #theta:[100,105] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm
+vol: 485 #theta:[100,105] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm
+vol: 486 #theta:[100,105] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm
+vol: 487 #theta:[300,350] mrad p_{tot}:[8,11] GeV/c z_{targ}:[30,60] cm
+vol: 488 #theta:[300,350] mrad p_{tot}:[8,11] GeV/c z_{targ}:[60,90] cm
+vol: 489 #theta:[350,400] mrad p_{tot}:[8,11] GeV/c z_{targ}:[30,60] cm
+vol: 490 #theta:[350,400] mrad p_{tot}:[8,11] GeV/c z_{targ}:[60,90] cm
+vol: 491 #theta:[300,350] mrad p_{tot}:[11,14] GeV/c z_{targ}:[30,60] cm
+vol: 492 #theta:[300,350] mrad p_{tot}:[11,14] GeV/c z_{targ}:[60,90] cm
+vol: 493 #theta:[300,350] mrad p_{tot}:[14,17] GeV/c z_{targ}:[30,60] cm
+vol: 494 #theta:[300,350] mrad p_{tot}:[14,17] GeV/c z_{targ}:[60,90] cm
+vol: 495 #theta:[350,400] mrad p_{tot}:[11,14] GeV/c z_{targ}:[30,60] cm
+vol: 496 #theta:[350,400] mrad p_{tot}:[11,14] GeV/c z_{targ}:[60,90] cm
+vol: 497 #theta:[350,400] mrad p_{tot}:[14,17] GeV/c z_{targ}:[30,60] cm
+vol: 498 #theta:[350,400] mrad p_{tot}:[14,17] GeV/c z_{targ}:[60,90] cm
+==== PhaseSpaceMap: mapKin3D ==== end =====
+	  ----- ToF ------
+ adding width par ToF_Mass2_TailedGaus_part -1 4 -1
+	 --- ToF form path legth and time resolution -----
+	 ------- Bethe Bloch --------
+	  ----- dE/dx generation -----
+	 -------- Data Set Set Up -----------
+	 	  -- Create a Data Bin ----
+	 	  -- Create a Data Set ----
+../../TShine/src/TSDataSetMgr.cc::SetDataBin
+../../TShine/src/TSDataSetMgr.cc::SetDataBin -- out --
+../../TShine/src/TSDataSetMgr.cc::fBuildDataBins
+ == TSDataSetMgr::Print() dataSetMgr Glob data set ==== 
+ Num. of Vars: 15
+1 dE/dx;dE/dx [arb. units] type: data
+2 dE/dx for p's;dE/dx [arb. units] type: data
+3 dE/dx for #pi's;dE/dx [arb. units] type: data
+4 dE/dx for K's;dE/dx [arb. units] type: data
+5 <dE/dx> for p's;dE/dx [arb. units] type: data
+6 <dE/dx> for #pi's;dE/dx [arb. units] type: data
+7 <dE/dx> for K's;dE/dx [arb. units] type: data
+8 ToF m^{2};m^{2} [GeV^{2}/c^{4}] type: data
+9 m^{2} for p's;m^{2} [GeV^{2}/c^{4}] type: data
+10 m^{2} for K's;m^{2} [GeV^{2}/c^{4}] type: data
+11 m^{2} for #pi's;m^{2} [GeV^{2}/c^{4}] type: data
+12 Num. of Points;Num. of Points type: data
+13 polar angle;#theta [mrad] type: phase-space
+14 momentum;p_{tot} [GeV/c] type: phase-space
+15 z-target;z_{targ} [cm] type: phase-space
+ Num. of Data Bins: 498
+ ===== dataSetMgr ==== 
+../../TShine/src/TSDataSetMgr.cc::SetDataBin
+../../TShine/src/TSDataSetMgr.cc::SetDataBin -- out --
+../../TShine/src/TSDataSetMgr.cc::fBuildDataBins
+ == TSDataSetMgr::Print() dataSetMgr2D Glob data set 2D ==== 
+ Num. of Vars: 14
+1 dE/dx;dE/dx [arb. units] type: data
+2 dE/dx for p's;dE/dx [arb. units] type: data
+3 dE/dx for #pi's;dE/dx [arb. units] type: data
+4 dE/dx for K's;dE/dx [arb. units] type: data
+5 <dE/dx> for p's;dE/dx [arb. units] type: data
+6 <dE/dx> for #pi's;dE/dx [arb. units] type: data
+7 <dE/dx> for K's;dE/dx [arb. units] type: data
+8 ToF m^{2};m^{2} [GeV^{2}/c^{4}] type: data
+9 m^{2} for p's;m^{2} [GeV^{2}/c^{4}] type: data
+10 m^{2} for K's;m^{2} [GeV^{2}/c^{4}] type: data
+11 m^{2} for #pi's;m^{2} [GeV^{2}/c^{4}] type: data
+12 Num. of Points;Num. of Points type: data
+13 momentum;p_{tot} [GeV/c] type: phase-space
+14 polar angle;#theta [mrad] type: phase-space
+ Num. of Data Bins: 132
+ ===== dataSetMgr2D ==== 
+
+==== PhaseSpaceMap mapKin2D map Mom-Theta ======
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 132
+vol: 1 p_{tot}:[0,0.8] GeV/c #theta:[0,20] mrad
+vol: 2 p_{tot}:[0.8,1.6] GeV/c #theta:[0,20] mrad
+vol: 3 p_{tot}:[1.6,2.4] GeV/c #theta:[0,20] mrad
+vol: 4 p_{tot}:[2.4,3.2] GeV/c #theta:[0,20] mrad
+vol: 5 p_{tot}:[3.2,4] GeV/c #theta:[0,20] mrad
+vol: 6 p_{tot}:[4,4.8] GeV/c #theta:[0,20] mrad
+vol: 7 p_{tot}:[4.8,5.6] GeV/c #theta:[0,20] mrad
+vol: 8 p_{tot}:[5.6,6.4] GeV/c #theta:[0,20] mrad
+vol: 9 p_{tot}:[6.4,7.6] GeV/c #theta:[0,20] mrad
+vol: 10 p_{tot}:[7.6,8.8] GeV/c #theta:[0,20] mrad
+vol: 11 p_{tot}:[8.8,10] GeV/c #theta:[0,20] mrad
+vol: 12 p_{tot}:[10,11.6] GeV/c #theta:[0,20] mrad
+vol: 13 p_{tot}:[11.6,13.2] GeV/c #theta:[0,20] mrad
+vol: 14 p_{tot}:[13.2,14.8] GeV/c #theta:[0,20] mrad
+vol: 15 p_{tot}:[14.8,16.4] GeV/c #theta:[0,20] mrad
+vol: 16 p_{tot}:[16.4,18] GeV/c #theta:[0,20] mrad
+vol: 17 p_{tot}:[18,19.6] GeV/c #theta:[0,20] mrad
+vol: 18 p_{tot}:[19.6,21.2] GeV/c #theta:[0,20] mrad
+vol: 19 p_{tot}:[21.2,22.8] GeV/c #theta:[0,20] mrad
+vol: 20 p_{tot}:[22.8,24.4] GeV/c #theta:[0,20] mrad
+vol: 21 p_{tot}:[0,0.8] GeV/c #theta:[20,40] mrad
+vol: 22 p_{tot}:[0.8,1.6] GeV/c #theta:[20,40] mrad
+vol: 23 p_{tot}:[1.6,2.4] GeV/c #theta:[20,40] mrad
+vol: 24 p_{tot}:[2.4,3.2] GeV/c #theta:[20,40] mrad
+vol: 25 p_{tot}:[3.2,4] GeV/c #theta:[20,40] mrad
+vol: 26 p_{tot}:[4,4.8] GeV/c #theta:[20,40] mrad
+vol: 27 p_{tot}:[4.8,5.6] GeV/c #theta:[20,40] mrad
+vol: 28 p_{tot}:[5.6,6.4] GeV/c #theta:[20,40] mrad
+vol: 29 p_{tot}:[6.4,7.6] GeV/c #theta:[20,40] mrad
+vol: 30 p_{tot}:[7.6,8.8] GeV/c #theta:[20,40] mrad
+vol: 31 p_{tot}:[8.8,10] GeV/c #theta:[20,40] mrad
+vol: 32 p_{tot}:[10,11.6] GeV/c #theta:[20,40] mrad
+vol: 33 p_{tot}:[11.6,13.2] GeV/c #theta:[20,40] mrad
+vol: 34 p_{tot}:[13.2,14.8] GeV/c #theta:[20,40] mrad
+vol: 35 p_{tot}:[14.8,16.4] GeV/c #theta:[20,40] mrad
+vol: 36 p_{tot}:[16.4,18] GeV/c #theta:[20,40] mrad
+vol: 37 p_{tot}:[18,19.6] GeV/c #theta:[20,40] mrad
+vol: 38 p_{tot}:[19.6,21.2] GeV/c #theta:[20,40] mrad
+vol: 39 p_{tot}:[21.2,22.8] GeV/c #theta:[20,40] mrad
+vol: 40 p_{tot}:[22.8,24.4] GeV/c #theta:[20,40] mrad
+vol: 41 p_{tot}:[0,0.8] GeV/c #theta:[40,60] mrad
+vol: 42 p_{tot}:[0.8,1.6] GeV/c #theta:[40,60] mrad
+vol: 43 p_{tot}:[1.6,2.4] GeV/c #theta:[40,60] mrad
+vol: 44 p_{tot}:[2.4,3.2] GeV/c #theta:[40,60] mrad
+vol: 45 p_{tot}:[3.2,4] GeV/c #theta:[40,60] mrad
+vol: 46 p_{tot}:[4,4.8] GeV/c #theta:[40,60] mrad
+vol: 47 p_{tot}:[4.8,5.6] GeV/c #theta:[40,60] mrad
+vol: 48 p_{tot}:[5.6,6.4] GeV/c #theta:[40,60] mrad
+vol: 49 p_{tot}:[6.4,7.6] GeV/c #theta:[40,60] mrad
+vol: 50 p_{tot}:[7.6,8.8] GeV/c #theta:[40,60] mrad
+vol: 51 p_{tot}:[8.8,10] GeV/c #theta:[40,60] mrad
+vol: 52 p_{tot}:[10,11.6] GeV/c #theta:[40,60] mrad
+vol: 53 p_{tot}:[11.6,13.2] GeV/c #theta:[40,60] mrad
+vol: 54 p_{tot}:[13.2,14.8] GeV/c #theta:[40,60] mrad
+vol: 55 p_{tot}:[14.8,16.4] GeV/c #theta:[40,60] mrad
+vol: 56 p_{tot}:[16.4,18] GeV/c #theta:[40,60] mrad
+vol: 57 p_{tot}:[18,19.6] GeV/c #theta:[40,60] mrad
+vol: 58 p_{tot}:[19.6,21.2] GeV/c #theta:[40,60] mrad
+vol: 59 p_{tot}:[21.2,22.8] GeV/c #theta:[40,60] mrad
+vol: 60 p_{tot}:[22.8,24.4] GeV/c #theta:[40,60] mrad
+vol: 61 p_{tot}:[0,0.8] GeV/c #theta:[60,100] mrad
+vol: 62 p_{tot}:[0.8,1.6] GeV/c #theta:[60,100] mrad
+vol: 63 p_{tot}:[1.6,2.4] GeV/c #theta:[60,100] mrad
+vol: 64 p_{tot}:[2.4,3.2] GeV/c #theta:[60,100] mrad
+vol: 65 p_{tot}:[3.2,4] GeV/c #theta:[60,100] mrad
+vol: 66 p_{tot}:[4,4.8] GeV/c #theta:[60,100] mrad
+vol: 67 p_{tot}:[4.8,5.6] GeV/c #theta:[60,100] mrad
+vol: 68 p_{tot}:[5.6,6.4] GeV/c #theta:[60,100] mrad
+vol: 69 p_{tot}:[6.4,7.6] GeV/c #theta:[60,100] mrad
+vol: 70 p_{tot}:[7.6,8.8] GeV/c #theta:[60,100] mrad
+vol: 71 p_{tot}:[8.8,10] GeV/c #theta:[60,100] mrad
+vol: 72 p_{tot}:[10,11.6] GeV/c #theta:[60,100] mrad
+vol: 73 p_{tot}:[11.6,13.2] GeV/c #theta:[60,100] mrad
+vol: 74 p_{tot}:[13.2,14.8] GeV/c #theta:[60,100] mrad
+vol: 75 p_{tot}:[14.8,16.4] GeV/c #theta:[60,100] mrad
+vol: 76 p_{tot}:[16.4,18] GeV/c #theta:[60,100] mrad
+vol: 77 p_{tot}:[18,19.6] GeV/c #theta:[60,100] mrad
+vol: 78 p_{tot}:[19.6,21.2] GeV/c #theta:[60,100] mrad
+vol: 79 p_{tot}:[21.2,22.8] GeV/c #theta:[60,100] mrad
+vol: 80 p_{tot}:[22.8,24.4] GeV/c #theta:[60,100] mrad
+vol: 81 p_{tot}:[0,0.8] GeV/c #theta:[100,140] mrad
+vol: 82 p_{tot}:[0.8,1.6] GeV/c #theta:[100,140] mrad
+vol: 83 p_{tot}:[1.6,2.4] GeV/c #theta:[100,140] mrad
+vol: 84 p_{tot}:[2.4,3.2] GeV/c #theta:[100,140] mrad
+vol: 85 p_{tot}:[3.2,4] GeV/c #theta:[100,140] mrad
+vol: 86 p_{tot}:[4,4.8] GeV/c #theta:[100,140] mrad
+vol: 87 p_{tot}:[4.8,5.6] GeV/c #theta:[100,140] mrad
+vol: 88 p_{tot}:[5.6,6.4] GeV/c #theta:[100,140] mrad
+vol: 89 p_{tot}:[6.4,7.6] GeV/c #theta:[100,140] mrad
+vol: 90 p_{tot}:[7.6,8.8] GeV/c #theta:[100,140] mrad
+vol: 91 p_{tot}:[8.8,10] GeV/c #theta:[100,140] mrad
+vol: 92 p_{tot}:[10,11.6] GeV/c #theta:[100,140] mrad
+vol: 93 p_{tot}:[11.6,13.2] GeV/c #theta:[100,140] mrad
+vol: 94 p_{tot}:[13.2,14.8] GeV/c #theta:[100,140] mrad
+vol: 95 p_{tot}:[14.8,16.4] GeV/c #theta:[100,140] mrad
+vol: 96 p_{tot}:[16.4,18] GeV/c #theta:[100,140] mrad
+vol: 97 p_{tot}:[18,19.6] GeV/c #theta:[100,140] mrad
+vol: 98 p_{tot}:[19.6,21.2] GeV/c #theta:[100,140] mrad
+vol: 99 p_{tot}:[21.2,22.8] GeV/c #theta:[100,140] mrad
+vol: 100 p_{tot}:[22.8,24.4] GeV/c #theta:[100,140] mrad
+vol: 101 p_{tot}:[0,0.8] GeV/c #theta:[140,180] mrad
+vol: 102 p_{tot}:[0.8,1.6] GeV/c #theta:[140,180] mrad
+vol: 103 p_{tot}:[1.6,2.4] GeV/c #theta:[140,180] mrad
+vol: 104 p_{tot}:[2.4,3.2] GeV/c #theta:[140,180] mrad
+vol: 105 p_{tot}:[3.2,4] GeV/c #theta:[140,180] mrad
+vol: 106 p_{tot}:[4,4.8] GeV/c #theta:[140,180] mrad
+vol: 107 p_{tot}:[4.8,5.6] GeV/c #theta:[140,180] mrad
+vol: 108 p_{tot}:[5.6,6.4] GeV/c #theta:[140,180] mrad
+vol: 109 p_{tot}:[6.4,7.6] GeV/c #theta:[140,180] mrad
+vol: 110 p_{tot}:[7.6,8.8] GeV/c #theta:[140,180] mrad
+vol: 111 p_{tot}:[8.8,10] GeV/c #theta:[140,180] mrad
+vol: 112 p_{tot}:[0,0.8] GeV/c #theta:[180,240] mrad
+vol: 113 p_{tot}:[0.8,1.6] GeV/c #theta:[180,240] mrad
+vol: 114 p_{tot}:[1.6,2.4] GeV/c #theta:[180,240] mrad
+vol: 115 p_{tot}:[2.4,3.2] GeV/c #theta:[180,240] mrad
+vol: 116 p_{tot}:[3.2,4] GeV/c #theta:[180,240] mrad
+vol: 117 p_{tot}:[4,4.8] GeV/c #theta:[180,240] mrad
+vol: 118 p_{tot}:[4.8,5.6] GeV/c #theta:[180,240] mrad
+vol: 119 p_{tot}:[5.6,6.4] GeV/c #theta:[180,240] mrad
+vol: 120 p_{tot}:[6.4,7.6] GeV/c #theta:[180,240] mrad
+vol: 121 p_{tot}:[0,0.8] GeV/c #theta:[240,300] mrad
+vol: 122 p_{tot}:[0.8,1.6] GeV/c #theta:[240,300] mrad
+vol: 123 p_{tot}:[1.6,2.4] GeV/c #theta:[240,300] mrad
+vol: 124 p_{tot}:[2.4,3.2] GeV/c #theta:[240,300] mrad
+vol: 125 p_{tot}:[3.2,4] GeV/c #theta:[240,300] mrad
+vol: 126 p_{tot}:[4,4.8] GeV/c #theta:[240,300] mrad
+vol: 127 p_{tot}:[4.8,5.6] GeV/c #theta:[240,300] mrad
+vol: 128 p_{tot}:[0,0.8] GeV/c #theta:[300,360] mrad
+vol: 129 p_{tot}:[0.8,1.6] GeV/c #theta:[300,360] mrad
+vol: 130 p_{tot}:[1.6,2.4] GeV/c #theta:[300,360] mrad
+vol: 131 p_{tot}:[2.4,3.2] GeV/c #theta:[300,360] mrad
+vol: 132 p_{tot}:[3.2,4] GeV/c #theta:[300,360] mrad
+==== PhaseSpaceMap: mapKin2D ==== end =====
+	  --- Generation ----
+Tot Calls/EntriesIn Pos: 10000 2196
+Tot Calls/EntriesIn Neg: 0 0
+write mapKi2D_All: 
+Outliers: 0.112633
+
+==== PhaseSpaceFolder dataSetMgr2D Glob data set 2D ======
+PhaseSpaceMap: PSMap_dataSetMgr2D map Mom-Theta
+Tag: Glob
+Dimension 2
+Axis Variables 
+1 Mom
+2 Theta
+
+Number of Volumes: 132
+vol: 1 p_{tot}:[0,0.8] GeV/c #theta:[0,20] mrad, entries: 435
+vol: 2 p_{tot}:[0.8,1.6] GeV/c #theta:[0,20] mrad, entries: 447
+vol: 3 p_{tot}:[1.6,2.4] GeV/c #theta:[0,20] mrad, entries: 354
+vol: 4 p_{tot}:[2.4,3.2] GeV/c #theta:[0,20] mrad, entries: 282
+vol: 5 p_{tot}:[3.2,4] GeV/c #theta:[0,20] mrad, entries: 252
+vol: 6 p_{tot}:[4,4.8] GeV/c #theta:[0,20] mrad, entries: 174
+vol: 7 p_{tot}:[4.8,5.6] GeV/c #theta:[0,20] mrad, entries: 183
+vol: 8 p_{tot}:[5.6,6.4] GeV/c #theta:[0,20] mrad, entries: 117
+vol: 9 p_{tot}:[6.4,7.6] GeV/c #theta:[0,20] mrad, entries: 135
+vol: 10 p_{tot}:[7.6,8.8] GeV/c #theta:[0,20] mrad, entries: 123
+vol: 11 p_{tot}:[8.8,10] GeV/c #theta:[0,20] mrad, entries: 75
+vol: 12 p_{tot}:[10,11.6] GeV/c #theta:[0,20] mrad, entries: 90
+vol: 13 p_{tot}:[11.6,13.2] GeV/c #theta:[0,20] mrad, entries: 51
+vol: 14 p_{tot}:[13.2,14.8] GeV/c #theta:[0,20] mrad, entries: 27
+vol: 15 p_{tot}:[14.8,16.4] GeV/c #theta:[0,20] mrad, entries: 15
+vol: 16 p_{tot}:[16.4,18] GeV/c #theta:[0,20] mrad, entries: 21
+vol: 17 p_{tot}:[18,19.6] GeV/c #theta:[0,20] mrad, entries: 21
+vol: 18 p_{tot}:[19.6,21.2] GeV/c #theta:[0,20] mrad, entries: 3
+vol: 19 p_{tot}:[21.2,22.8] GeV/c #theta:[0,20] mrad, entries: 6
+vol: 20 p_{tot}:[22.8,24.4] GeV/c #theta:[0,20] mrad, entries: 6
+vol: 21 p_{tot}:[0,0.8] GeV/c #theta:[20,40] mrad, entries: 363
+vol: 22 p_{tot}:[0.8,1.6] GeV/c #theta:[20,40] mrad, entries: 405
+vol: 23 p_{tot}:[1.6,2.4] GeV/c #theta:[20,40] mrad, entries: 348
+vol: 24 p_{tot}:[2.4,3.2] GeV/c #theta:[20,40] mrad, entries: 243
+vol: 25 p_{tot}:[3.2,4] GeV/c #theta:[20,40] mrad, entries: 189
+vol: 26 p_{tot}:[4,4.8] GeV/c #theta:[20,40] mrad, entries: 177
+vol: 27 p_{tot}:[4.8,5.6] GeV/c #theta:[20,40] mrad, entries: 114
+vol: 28 p_{tot}:[5.6,6.4] GeV/c #theta:[20,40] mrad, entries: 117
+vol: 29 p_{tot}:[6.4,7.6] GeV/c #theta:[20,40] mrad, entries: 153
+vol: 30 p_{tot}:[7.6,8.8] GeV/c #theta:[20,40] mrad, entries: 69
+vol: 31 p_{tot}:[8.8,10] GeV/c #theta:[20,40] mrad, entries: 111
+vol: 32 p_{tot}:[10,11.6] GeV/c #theta:[20,40] mrad, entries: 72
+vol: 33 p_{tot}:[11.6,13.2] GeV/c #theta:[20,40] mrad, entries: 39
+vol: 34 p_{tot}:[13.2,14.8] GeV/c #theta:[20,40] mrad, entries: 12
+vol: 35 p_{tot}:[14.8,16.4] GeV/c #theta:[20,40] mrad, entries: 21
+vol: 36 p_{tot}:[16.4,18] GeV/c #theta:[20,40] mrad, entries: 30
+vol: 37 p_{tot}:[18,19.6] GeV/c #theta:[20,40] mrad, entries: 9
+vol: 38 p_{tot}:[19.6,21.2] GeV/c #theta:[20,40] mrad, entries: 9
+vol: 39 p_{tot}:[21.2,22.8] GeV/c #theta:[20,40] mrad, entries: 3
+vol: 40 p_{tot}:[22.8,24.4] GeV/c #theta:[20,40] mrad, entries: 6
+vol: 41 p_{tot}:[0,0.8] GeV/c #theta:[40,60] mrad, entries: 375
+vol: 42 p_{tot}:[0.8,1.6] GeV/c #theta:[40,60] mrad, entries: 369
+vol: 43 p_{tot}:[1.6,2.4] GeV/c #theta:[40,60] mrad, entries: 330
+vol: 44 p_{tot}:[2.4,3.2] GeV/c #theta:[40,60] mrad, entries: 246
+vol: 45 p_{tot}:[3.2,4] GeV/c #theta:[40,60] mrad, entries: 195
+vol: 46 p_{tot}:[4,4.8] GeV/c #theta:[40,60] mrad, entries: 135
+vol: 47 p_{tot}:[4.8,5.6] GeV/c #theta:[40,60] mrad, entries: 138
+vol: 48 p_{tot}:[5.6,6.4] GeV/c #theta:[40,60] mrad, entries: 108
+vol: 49 p_{tot}:[6.4,7.6] GeV/c #theta:[40,60] mrad, entries: 123
+vol: 50 p_{tot}:[7.6,8.8] GeV/c #theta:[40,60] mrad, entries: 129
+vol: 51 p_{tot}:[8.8,10] GeV/c #theta:[40,60] mrad, entries: 48
+vol: 52 p_{tot}:[10,11.6] GeV/c #theta:[40,60] mrad, entries: 60
+vol: 53 p_{tot}:[11.6,13.2] GeV/c #theta:[40,60] mrad, entries: 36
+vol: 54 p_{tot}:[13.2,14.8] GeV/c #theta:[40,60] mrad, entries: 39
+vol: 55 p_{tot}:[14.8,16.4] GeV/c #theta:[40,60] mrad, entries: 12
+vol: 56 p_{tot}:[16.4,18] GeV/c #theta:[40,60] mrad, entries: 27
+vol: 57 p_{tot}:[18,19.6] GeV/c #theta:[40,60] mrad, entries: 6
+vol: 58 p_{tot}:[19.6,21.2] GeV/c #theta:[40,60] mrad, entries: 3
+vol: 59 p_{tot}:[21.2,22.8] GeV/c #theta:[40,60] mrad, entries: 9
+vol: 60 p_{tot}:[22.8,24.4] GeV/c #theta:[40,60] mrad, entries: 3
+vol: 61 p_{tot}:[0,0.8] GeV/c #theta:[60,100] mrad, entries: 666
+vol: 62 p_{tot}:[0.8,1.6] GeV/c #theta:[60,100] mrad, entries: 576
+vol: 63 p_{tot}:[1.6,2.4] GeV/c #theta:[60,100] mrad, entries: 543
+vol: 64 p_{tot}:[2.4,3.2] GeV/c #theta:[60,100] mrad, entries: 396
+vol: 65 p_{tot}:[3.2,4] GeV/c #theta:[60,100] mrad, entries: 357
+vol: 66 p_{tot}:[4,4.8] GeV/c #theta:[60,100] mrad, entries: 297
+vol: 67 p_{tot}:[4.8,5.6] GeV/c #theta:[60,100] mrad, entries: 219
+vol: 68 p_{tot}:[5.6,6.4] GeV/c #theta:[60,100] mrad, entries: 147
+vol: 69 p_{tot}:[6.4,7.6] GeV/c #theta:[60,100] mrad, entries: 234
+vol: 70 p_{tot}:[7.6,8.8] GeV/c #theta:[60,100] mrad, entries: 150
+vol: 71 p_{tot}:[8.8,10] GeV/c #theta:[60,100] mrad, entries: 108
+vol: 72 p_{tot}:[10,11.6] GeV/c #theta:[60,100] mrad, entries: 87
+vol: 73 p_{tot}:[11.6,13.2] GeV/c #theta:[60,100] mrad, entries: 84
+vol: 74 p_{tot}:[13.2,14.8] GeV/c #theta:[60,100] mrad, entries: 30
+vol: 75 p_{tot}:[14.8,16.4] GeV/c #theta:[60,100] mrad, entries: 48
+vol: 76 p_{tot}:[16.4,18] GeV/c #theta:[60,100] mrad, entries: 24
+vol: 77 p_{tot}:[18,19.6] GeV/c #theta:[60,100] mrad, entries: 18
+vol: 78 p_{tot}:[19.6,21.2] GeV/c #theta:[60,100] mrad, entries: 9
+vol: 79 p_{tot}:[21.2,22.8] GeV/c #theta:[60,100] mrad, entries: 6
+vol: 80 p_{tot}:[22.8,24.4] GeV/c #theta:[60,100] mrad, entries: 3
+vol: 81 p_{tot}:[0,0.8] GeV/c #theta:[100,140] mrad, entries: 534
+vol: 82 p_{tot}:[0.8,1.6] GeV/c #theta:[100,140] mrad, entries: 441
+vol: 83 p_{tot}:[1.6,2.4] GeV/c #theta:[100,140] mrad, entries: 417
+vol: 84 p_{tot}:[2.4,3.2] GeV/c #theta:[100,140] mrad, entries: 297
+vol: 85 p_{tot}:[3.2,4] GeV/c #theta:[100,140] mrad, entries: 288
+vol: 86 p_{tot}:[4,4.8] GeV/c #theta:[100,140] mrad, entries: 219
+vol: 87 p_{tot}:[4.8,5.6] GeV/c #theta:[100,140] mrad, entries: 189
+vol: 88 p_{tot}:[5.6,6.4] GeV/c #theta:[100,140] mrad, entries: 102
+vol: 89 p_{tot}:[6.4,7.6] GeV/c #theta:[100,140] mrad, entries: 156
+vol: 90 p_{tot}:[7.6,8.8] GeV/c #theta:[100,140] mrad, entries: 138
+vol: 91 p_{tot}:[8.8,10] GeV/c #theta:[100,140] mrad, entries: 87
+vol: 92 p_{tot}:[10,11.6] GeV/c #theta:[100,140] mrad, entries: 111
+vol: 93 p_{tot}:[11.6,13.2] GeV/c #theta:[100,140] mrad, entries: 63
+vol: 94 p_{tot}:[13.2,14.8] GeV/c #theta:[100,140] mrad, entries: 69
+vol: 95 p_{tot}:[14.8,16.4] GeV/c #theta:[100,140] mrad, entries: 45
+vol: 96 p_{tot}:[16.4,18] GeV/c #theta:[100,140] mrad, entries: 18
+vol: 97 p_{tot}:[18,19.6] GeV/c #theta:[100,140] mrad, entries: 12
+vol: 98 p_{tot}:[19.6,21.2] GeV/c #theta:[100,140] mrad, entries: 12
+vol: 99 p_{tot}:[21.2,22.8] GeV/c #theta:[100,140] mrad, entries: 12
+vol: 100 p_{tot}:[22.8,24.4] GeV/c #theta:[100,140] mrad, entries: 0
+vol: 101 p_{tot}:[0,0.8] GeV/c #theta:[140,180] mrad, entries: 501
+vol: 102 p_{tot}:[0.8,1.6] GeV/c #theta:[140,180] mrad, entries: 357
+vol: 103 p_{tot}:[1.6,2.4] GeV/c #theta:[140,180] mrad, entries: 369
+vol: 104 p_{tot}:[2.4,3.2] GeV/c #theta:[140,180] mrad, entries: 237
+vol: 105 p_{tot}:[3.2,4] GeV/c #theta:[140,180] mrad, entries: 282
+vol: 106 p_{tot}:[4,4.8] GeV/c #theta:[140,180] mrad, entries: 189
+vol: 107 p_{tot}:[4.8,5.6] GeV/c #theta:[140,180] mrad, entries: 102
+vol: 108 p_{tot}:[5.6,6.4] GeV/c #theta:[140,180] mrad, entries: 120
+vol: 109 p_{tot}:[6.4,7.6] GeV/c #theta:[140,180] mrad, entries: 180
+vol: 110 p_{tot}:[7.6,8.8] GeV/c #theta:[140,180] mrad, entries: 81
+vol: 111 p_{tot}:[8.8,10] GeV/c #theta:[140,180] mrad, entries: 57
+vol: 112 p_{tot}:[0,0.8] GeV/c #theta:[180,240] mrad, entries: 519
+vol: 113 p_{tot}:[0.8,1.6] GeV/c #theta:[180,240] mrad, entries: 561
+vol: 114 p_{tot}:[1.6,2.4] GeV/c #theta:[180,240] mrad, entries: 381
+vol: 115 p_{tot}:[2.4,3.2] GeV/c #theta:[180,240] mrad, entries: 300
+vol: 116 p_{tot}:[3.2,4] GeV/c #theta:[180,240] mrad, entries: 285
+vol: 117 p_{tot}:[4,4.8] GeV/c #theta:[180,240] mrad, entries: 228
+vol: 118 p_{tot}:[4.8,5.6] GeV/c #theta:[180,240] mrad, entries: 177
+vol: 119 p_{tot}:[5.6,6.4] GeV/c #theta:[180,240] mrad, entries: 141
+vol: 120 p_{tot}:[6.4,7.6] GeV/c #theta:[180,240] mrad, entries: 186
+vol: 121 p_{tot}:[0,0.8] GeV/c #theta:[240,300] mrad, entries: 375
+vol: 122 p_{tot}:[0.8,1.6] GeV/c #theta:[240,300] mrad, entries: 339
+vol: 123 p_{tot}:[1.6,2.4] GeV/c #theta:[240,300] mrad, entries: 321
+vol: 124 p_{tot}:[2.4,3.2] GeV/c #theta:[240,300] mrad, entries: 234
+vol: 125 p_{tot}:[3.2,4] GeV/c #theta:[240,300] mrad, entries: 186
+vol: 126 p_{tot}:[4,4.8] GeV/c #theta:[240,300] mrad, entries: 150
+vol: 127 p_{tot}:[4.8,5.6] GeV/c #theta:[240,300] mrad, entries: 114
+vol: 128 p_{tot}:[0,0.8] GeV/c #theta:[300,360] mrad, entries: 252
+vol: 129 p_{tot}:[0.8,1.6] GeV/c #theta:[300,360] mrad, entries: 228
+vol: 130 p_{tot}:[1.6,2.4] GeV/c #theta:[300,360] mrad, entries: 180
+vol: 131 p_{tot}:[2.4,3.2] GeV/c #theta:[300,360] mrad, entries: 183
+vol: 132 p_{tot}:[3.2,4] GeV/c #theta:[300,360] mrad, entries: 135
+Total Entries: 22860
+Total Calls: 22860
+==== PhaseSpaceFolder: dataSetMgr2D ==== end =====
+
+==== PhaseSpaceFolder dataSetMgr Glob data set ======
+PhaseSpaceMap: PSMap_dataSetMgr map Theta-Mom-Z
+Tag: Glob
+Dimension 3
+Axis Variables 
+1 Theta
+2 Mom
+3 ZTarg
+
+Number of Volumes: 498
+vol: 1 #theta:[50,60] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 68
+vol: 2 #theta:[60,70] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 48
+vol: 3 #theta:[70,80] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 72
+vol: 4 #theta:[80,90] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 60
+vol: 5 #theta:[90,100] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 42
+vol: 6 #theta:[100,110] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 50
+vol: 7 #theta:[110,120] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 38
+vol: 8 #theta:[120,130] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 60
+vol: 9 #theta:[130,140] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 40
+vol: 10 #theta:[140,150] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 32
+vol: 11 #theta:[150,160] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 32
+vol: 12 #theta:[160,170] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 40
+vol: 13 #theta:[170,180] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 34
+vol: 14 #theta:[180,190] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 44
+vol: 15 #theta:[190,200] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 40
+vol: 16 #theta:[200,210] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 42
+vol: 17 #theta:[210,220] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 20
+vol: 18 #theta:[220,230] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 30
+vol: 19 #theta:[230,240] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 28
+vol: 20 #theta:[240,250] mrad p_{tot}:[1,3] GeV/c z_{targ}:[0,30] cm, entries: 22
+vol: 21 #theta:[50,60] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 24
+vol: 22 #theta:[50,60] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 14
+vol: 23 #theta:[60,70] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 46
+vol: 24 #theta:[60,70] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 18
+vol: 25 #theta:[70,80] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 34
+vol: 26 #theta:[70,80] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 8
+vol: 27 #theta:[80,90] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 46
+vol: 28 #theta:[80,90] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 36
+vol: 29 #theta:[90,100] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 28
+vol: 30 #theta:[90,100] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 18
+vol: 31 #theta:[100,110] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 24
+vol: 32 #theta:[100,110] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 14
+vol: 33 #theta:[110,120] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 22
+vol: 34 #theta:[110,120] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 20
+vol: 35 #theta:[120,130] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 28
+vol: 36 #theta:[120,130] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 18
+vol: 37 #theta:[130,140] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 32
+vol: 38 #theta:[130,140] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 16
+vol: 39 #theta:[140,150] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 30
+vol: 40 #theta:[140,150] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 20
+vol: 41 #theta:[150,160] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 28
+vol: 42 #theta:[150,160] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 14
+vol: 43 #theta:[160,170] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 36
+vol: 44 #theta:[160,170] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 18
+vol: 45 #theta:[170,180] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 22
+vol: 46 #theta:[170,180] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 16
+vol: 47 #theta:[180,190] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 32
+vol: 48 #theta:[180,190] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 16
+vol: 49 #theta:[190,200] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 24
+vol: 50 #theta:[190,200] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 14
+vol: 51 #theta:[200,210] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 30
+vol: 52 #theta:[200,210] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 12
+vol: 53 #theta:[210,220] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 30
+vol: 54 #theta:[210,220] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 12
+vol: 55 #theta:[220,230] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 24
+vol: 56 #theta:[220,230] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 6
+vol: 57 #theta:[230,240] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 18
+vol: 58 #theta:[230,240] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 8
+vol: 59 #theta:[240,250] mrad p_{tot}:[3,5] GeV/c z_{targ}:[0,30] cm, entries: 12
+vol: 60 #theta:[240,250] mrad p_{tot}:[5,7] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 61 #theta:[5,10] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 62 #theta:[10,15] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 63 #theta:[15,20] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 64 #theta:[20,25] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 65 #theta:[25,30] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 66 #theta:[30,35] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 67 #theta:[35,40] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 6
+vol: 68 #theta:[40,45] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 6
+vol: 69 #theta:[45,50] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 6
+vol: 70 #theta:[50,55] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 6
+vol: 71 #theta:[55,60] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 72 #theta:[60,65] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 73 #theta:[65,70] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 74 #theta:[70,75] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 75 #theta:[75,80] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 76 #theta:[80,85] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 77 #theta:[85,90] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 78 #theta:[90,95] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 79 #theta:[95,100] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 80 #theta:[100,105] mrad p_{tot}:[10,12] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 81 #theta:[5,10] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 82 #theta:[5,10] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 83 #theta:[5,10] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 84 #theta:[5,10] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 85 #theta:[10,15] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 86 #theta:[10,15] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 87 #theta:[10,15] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 88 #theta:[10,15] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 89 #theta:[15,20] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 90 #theta:[15,20] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 91 #theta:[15,20] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 92 #theta:[15,20] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 93 #theta:[20,25] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 94 #theta:[20,25] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 95 #theta:[20,25] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 6
+vol: 96 #theta:[20,25] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 97 #theta:[25,30] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 98 #theta:[25,30] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 99 #theta:[25,30] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 100 #theta:[25,30] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 101 #theta:[30,35] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 102 #theta:[30,35] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 103 #theta:[30,35] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 104 #theta:[30,35] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 105 #theta:[35,40] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 106 #theta:[35,40] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 107 #theta:[35,40] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 108 #theta:[35,40] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 109 #theta:[40,45] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 110 #theta:[40,45] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 111 #theta:[40,45] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 6
+vol: 112 #theta:[40,45] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 113 #theta:[45,50] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 114 #theta:[45,50] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 115 #theta:[45,50] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 116 #theta:[45,50] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 117 #theta:[50,55] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 118 #theta:[50,55] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 119 #theta:[50,55] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 120 #theta:[50,55] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 121 #theta:[55,60] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 122 #theta:[55,60] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 123 #theta:[55,60] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 124 #theta:[55,60] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 125 #theta:[60,65] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 126 #theta:[60,65] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 127 #theta:[60,65] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 128 #theta:[60,65] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 129 #theta:[65,70] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 130 #theta:[65,70] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 131 #theta:[65,70] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 132 #theta:[65,70] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 133 #theta:[70,75] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 134 #theta:[70,75] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 135 #theta:[70,75] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 136 #theta:[70,75] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 137 #theta:[75,80] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 6
+vol: 138 #theta:[75,80] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 139 #theta:[75,80] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 140 #theta:[75,80] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 141 #theta:[80,85] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 142 #theta:[80,85] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 8
+vol: 143 #theta:[80,85] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 144 #theta:[80,85] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 145 #theta:[85,90] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 6
+vol: 146 #theta:[85,90] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 147 #theta:[85,90] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 148 #theta:[85,90] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 149 #theta:[90,95] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 150 #theta:[90,95] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 151 #theta:[90,95] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 152 #theta:[90,95] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 153 #theta:[95,100] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 154 #theta:[95,100] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 155 #theta:[95,100] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 156 #theta:[95,100] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 157 #theta:[100,105] mrad p_{tot}:[12,14] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 158 #theta:[100,105] mrad p_{tot}:[14,16] GeV/c z_{targ}:[0,30] cm, entries: 4
+vol: 159 #theta:[100,105] mrad p_{tot}:[16,18] GeV/c z_{targ}:[0,30] cm, entries: 2
+vol: 160 #theta:[100,105] mrad p_{tot}:[18,20] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 161 #theta:[300,350] mrad p_{tot}:[8,11] GeV/c z_{targ}:[0,30] cm, entries: 36
+vol: 162 #theta:[350,400] mrad p_{tot}:[8,11] GeV/c z_{targ}:[0,30] cm, entries: 16
+vol: 163 #theta:[300,350] mrad p_{tot}:[11,14] GeV/c z_{targ}:[0,30] cm, entries: 6
+vol: 164 #theta:[300,350] mrad p_{tot}:[14,17] GeV/c z_{targ}:[0,30] cm, entries: 10
+vol: 165 #theta:[350,400] mrad p_{tot}:[11,14] GeV/c z_{targ}:[0,30] cm, entries: 6
+vol: 166 #theta:[350,400] mrad p_{tot}:[14,17] GeV/c z_{targ}:[0,30] cm, entries: 0
+vol: 167 #theta:[50,60] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 66
+vol: 168 #theta:[50,60] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 30
+vol: 169 #theta:[60,70] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 52
+vol: 170 #theta:[60,70] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 36
+vol: 171 #theta:[70,80] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 34
+vol: 172 #theta:[70,80] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 34
+vol: 173 #theta:[80,90] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 40
+vol: 174 #theta:[80,90] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 34
+vol: 175 #theta:[90,100] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 46
+vol: 176 #theta:[90,100] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 30
+vol: 177 #theta:[100,110] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 46
+vol: 178 #theta:[100,110] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 26
+vol: 179 #theta:[110,120] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 28
+vol: 180 #theta:[110,120] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 34
+vol: 181 #theta:[120,130] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 42
+vol: 182 #theta:[120,130] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 20
+vol: 183 #theta:[130,140] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 40
+vol: 184 #theta:[130,140] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 24
+vol: 185 #theta:[140,150] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 34
+vol: 186 #theta:[140,150] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 20
+vol: 187 #theta:[150,160] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 36
+vol: 188 #theta:[150,160] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 30
+vol: 189 #theta:[160,170] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 28
+vol: 190 #theta:[160,170] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 16
+vol: 191 #theta:[170,180] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 16
+vol: 192 #theta:[170,180] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 10
+vol: 193 #theta:[180,190] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 30
+vol: 194 #theta:[180,190] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 12
+vol: 195 #theta:[190,200] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 24
+vol: 196 #theta:[190,200] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 24
+vol: 197 #theta:[200,210] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 18
+vol: 198 #theta:[200,210] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 16
+vol: 199 #theta:[210,220] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 20
+vol: 200 #theta:[210,220] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 12
+vol: 201 #theta:[220,230] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 28
+vol: 202 #theta:[220,230] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 14
+vol: 203 #theta:[230,240] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 16
+vol: 204 #theta:[230,240] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 16
+vol: 205 #theta:[240,250] mrad p_{tot}:[1,3] GeV/c z_{targ}:[30,60] cm, entries: 22
+vol: 206 #theta:[240,250] mrad p_{tot}:[1,3] GeV/c z_{targ}:[60,90] cm, entries: 16
+vol: 207 #theta:[50,60] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 30
+vol: 208 #theta:[50,60] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 14
+vol: 209 #theta:[50,60] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 18
+vol: 210 #theta:[50,60] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 10
+vol: 211 #theta:[60,70] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 34
+vol: 212 #theta:[60,70] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 18
+vol: 213 #theta:[60,70] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 18
+vol: 214 #theta:[60,70] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 20
+vol: 215 #theta:[70,80] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 28
+vol: 216 #theta:[70,80] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 16
+vol: 217 #theta:[70,80] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 10
+vol: 218 #theta:[70,80] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 20
+vol: 219 #theta:[80,90] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 28
+vol: 220 #theta:[80,90] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 22
+vol: 221 #theta:[80,90] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 10
+vol: 222 #theta:[80,90] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 10
+vol: 223 #theta:[90,100] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 18
+vol: 224 #theta:[90,100] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 16
+vol: 225 #theta:[90,100] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 10
+vol: 226 #theta:[90,100] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 16
+vol: 227 #theta:[100,110] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 26
+vol: 228 #theta:[100,110] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 14
+vol: 229 #theta:[100,110] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 12
+vol: 230 #theta:[100,110] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 10
+vol: 231 #theta:[110,120] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 26
+vol: 232 #theta:[110,120] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 8
+vol: 233 #theta:[110,120] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 14
+vol: 234 #theta:[110,120] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 4
+vol: 235 #theta:[120,130] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 16
+vol: 236 #theta:[120,130] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 14
+vol: 237 #theta:[120,130] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 14
+vol: 238 #theta:[120,130] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 6
+vol: 239 #theta:[130,140] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 24
+vol: 240 #theta:[130,140] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 10
+vol: 241 #theta:[130,140] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 12
+vol: 242 #theta:[130,140] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 4
+vol: 243 #theta:[140,150] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 16
+vol: 244 #theta:[140,150] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 10
+vol: 245 #theta:[140,150] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 10
+vol: 246 #theta:[140,150] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 8
+vol: 247 #theta:[150,160] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 26
+vol: 248 #theta:[150,160] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 10
+vol: 249 #theta:[150,160] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 14
+vol: 250 #theta:[150,160] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 12
+vol: 251 #theta:[160,170] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 22
+vol: 252 #theta:[160,170] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 12
+vol: 253 #theta:[160,170] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 6
+vol: 254 #theta:[160,170] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 12
+vol: 255 #theta:[170,180] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 24
+vol: 256 #theta:[170,180] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 10
+vol: 257 #theta:[170,180] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 8
+vol: 258 #theta:[170,180] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 14
+vol: 259 #theta:[180,190] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 4
+vol: 260 #theta:[180,190] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 6
+vol: 261 #theta:[180,190] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 10
+vol: 262 #theta:[180,190] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 6
+vol: 263 #theta:[190,200] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 10
+vol: 264 #theta:[190,200] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 6
+vol: 265 #theta:[190,200] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 10
+vol: 266 #theta:[190,200] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 8
+vol: 267 #theta:[200,210] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 10
+vol: 268 #theta:[200,210] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 20
+vol: 269 #theta:[200,210] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 270 #theta:[200,210] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 271 #theta:[210,220] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 10
+vol: 272 #theta:[210,220] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 18
+vol: 273 #theta:[210,220] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 12
+vol: 274 #theta:[210,220] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 10
+vol: 275 #theta:[220,230] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 12
+vol: 276 #theta:[220,230] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 6
+vol: 277 #theta:[220,230] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 12
+vol: 278 #theta:[220,230] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 12
+vol: 279 #theta:[230,240] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 8
+vol: 280 #theta:[230,240] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 12
+vol: 281 #theta:[230,240] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 4
+vol: 282 #theta:[230,240] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 4
+vol: 283 #theta:[240,250] mrad p_{tot}:[3,5] GeV/c z_{targ}:[30,60] cm, entries: 16
+vol: 284 #theta:[240,250] mrad p_{tot}:[3,5] GeV/c z_{targ}:[60,90] cm, entries: 6
+vol: 285 #theta:[240,250] mrad p_{tot}:[5,7] GeV/c z_{targ}:[30,60] cm, entries: 6
+vol: 286 #theta:[240,250] mrad p_{tot}:[5,7] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 287 #theta:[5,10] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 288 #theta:[5,10] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 289 #theta:[10,15] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 290 #theta:[10,15] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 4
+vol: 291 #theta:[15,20] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 292 #theta:[15,20] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 6
+vol: 293 #theta:[20,25] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 4
+vol: 294 #theta:[20,25] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 295 #theta:[25,30] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 6
+vol: 296 #theta:[25,30] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 297 #theta:[30,35] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 298 #theta:[30,35] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 299 #theta:[35,40] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 300 #theta:[35,40] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 4
+vol: 301 #theta:[40,45] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 302 #theta:[40,45] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 303 #theta:[45,50] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 4
+vol: 304 #theta:[45,50] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 305 #theta:[50,55] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 6
+vol: 306 #theta:[50,55] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 307 #theta:[55,60] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 4
+vol: 308 #theta:[55,60] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 309 #theta:[60,65] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 310 #theta:[60,65] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 311 #theta:[65,70] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 4
+vol: 312 #theta:[65,70] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 313 #theta:[70,75] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 314 #theta:[70,75] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 315 #theta:[75,80] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 316 #theta:[75,80] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 317 #theta:[80,85] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 318 #theta:[80,85] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 319 #theta:[85,90] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 4
+vol: 320 #theta:[85,90] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 321 #theta:[90,95] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 6
+vol: 322 #theta:[90,95] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 323 #theta:[95,100] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 324 #theta:[95,100] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 4
+vol: 325 #theta:[100,105] mrad p_{tot}:[10,12] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 326 #theta:[100,105] mrad p_{tot}:[10,12] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 327 #theta:[5,10] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 328 #theta:[5,10] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 329 #theta:[5,10] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 330 #theta:[5,10] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 331 #theta:[5,10] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 4
+vol: 332 #theta:[5,10] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 333 #theta:[5,10] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 334 #theta:[5,10] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 335 #theta:[10,15] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 4
+vol: 336 #theta:[10,15] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 337 #theta:[10,15] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 338 #theta:[10,15] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 339 #theta:[10,15] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 340 #theta:[10,15] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 341 #theta:[10,15] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 342 #theta:[10,15] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 343 #theta:[15,20] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 344 #theta:[15,20] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 345 #theta:[15,20] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 346 #theta:[15,20] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 347 #theta:[15,20] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 348 #theta:[15,20] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 349 #theta:[15,20] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 350 #theta:[15,20] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 351 #theta:[20,25] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 352 #theta:[20,25] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 353 #theta:[20,25] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 4
+vol: 354 #theta:[20,25] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 355 #theta:[20,25] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 356 #theta:[20,25] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 357 #theta:[20,25] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 358 #theta:[20,25] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 359 #theta:[25,30] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 360 #theta:[25,30] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 4
+vol: 361 #theta:[25,30] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 362 #theta:[25,30] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 363 #theta:[25,30] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 364 #theta:[25,30] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 365 #theta:[25,30] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 366 #theta:[25,30] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 367 #theta:[30,35] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 368 #theta:[30,35] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 369 #theta:[30,35] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 370 #theta:[30,35] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 371 #theta:[30,35] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 372 #theta:[30,35] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 373 #theta:[30,35] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 374 #theta:[30,35] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 375 #theta:[35,40] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 376 #theta:[35,40] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 377 #theta:[35,40] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 378 #theta:[35,40] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 379 #theta:[35,40] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 380 #theta:[35,40] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 381 #theta:[35,40] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 382 #theta:[35,40] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 383 #theta:[40,45] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 384 #theta:[40,45] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 385 #theta:[40,45] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 4
+vol: 386 #theta:[40,45] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 387 #theta:[40,45] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 388 #theta:[40,45] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 389 #theta:[40,45] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 390 #theta:[40,45] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 391 #theta:[45,50] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 392 #theta:[45,50] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 393 #theta:[45,50] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 394 #theta:[45,50] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 395 #theta:[45,50] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 396 #theta:[45,50] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 397 #theta:[45,50] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 398 #theta:[45,50] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 399 #theta:[50,55] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 400 #theta:[50,55] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 401 #theta:[50,55] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 402 #theta:[50,55] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 403 #theta:[50,55] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 404 #theta:[50,55] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 405 #theta:[50,55] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 406 #theta:[50,55] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 407 #theta:[55,60] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 408 #theta:[55,60] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 409 #theta:[55,60] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 410 #theta:[55,60] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 411 #theta:[55,60] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 412 #theta:[55,60] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 413 #theta:[55,60] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 414 #theta:[55,60] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 415 #theta:[60,65] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 416 #theta:[60,65] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 417 #theta:[60,65] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 418 #theta:[60,65] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 419 #theta:[60,65] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 420 #theta:[60,65] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 421 #theta:[60,65] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 422 #theta:[60,65] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 423 #theta:[65,70] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 424 #theta:[65,70] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 425 #theta:[65,70] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 426 #theta:[65,70] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 427 #theta:[65,70] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 428 #theta:[65,70] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 429 #theta:[65,70] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 430 #theta:[65,70] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 431 #theta:[70,75] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 432 #theta:[70,75] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 433 #theta:[70,75] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 434 #theta:[70,75] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 435 #theta:[70,75] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 436 #theta:[70,75] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 437 #theta:[70,75] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 438 #theta:[70,75] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 439 #theta:[75,80] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 440 #theta:[75,80] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 4
+vol: 441 #theta:[75,80] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 442 #theta:[75,80] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 443 #theta:[75,80] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 444 #theta:[75,80] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 445 #theta:[75,80] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 446 #theta:[75,80] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 447 #theta:[80,85] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 448 #theta:[80,85] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 449 #theta:[80,85] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 450 #theta:[80,85] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 451 #theta:[80,85] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 452 #theta:[80,85] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 453 #theta:[80,85] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 454 #theta:[80,85] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 455 #theta:[85,90] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 456 #theta:[85,90] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 4
+vol: 457 #theta:[85,90] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 458 #theta:[85,90] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 459 #theta:[85,90] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 460 #theta:[85,90] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 461 #theta:[85,90] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 462 #theta:[85,90] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 463 #theta:[90,95] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 464 #theta:[90,95] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 465 #theta:[90,95] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 466 #theta:[90,95] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 467 #theta:[90,95] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 468 #theta:[90,95] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 469 #theta:[90,95] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 470 #theta:[90,95] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 471 #theta:[95,100] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 472 #theta:[95,100] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 473 #theta:[95,100] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 474 #theta:[95,100] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 475 #theta:[95,100] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 476 #theta:[95,100] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 477 #theta:[95,100] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 0
+vol: 478 #theta:[95,100] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 479 #theta:[100,105] mrad p_{tot}:[12,14] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 480 #theta:[100,105] mrad p_{tot}:[12,14] GeV/c z_{targ}:[60,90] cm, entries: 2
+vol: 481 #theta:[100,105] mrad p_{tot}:[14,16] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 482 #theta:[100,105] mrad p_{tot}:[14,16] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 483 #theta:[100,105] mrad p_{tot}:[16,18] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 484 #theta:[100,105] mrad p_{tot}:[16,18] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 485 #theta:[100,105] mrad p_{tot}:[18,20] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 486 #theta:[100,105] mrad p_{tot}:[18,20] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 487 #theta:[300,350] mrad p_{tot}:[8,11] GeV/c z_{targ}:[30,60] cm, entries: 20
+vol: 488 #theta:[300,350] mrad p_{tot}:[8,11] GeV/c z_{targ}:[60,90] cm, entries: 14
+vol: 489 #theta:[350,400] mrad p_{tot}:[8,11] GeV/c z_{targ}:[30,60] cm, entries: 8
+vol: 490 #theta:[350,400] mrad p_{tot}:[8,11] GeV/c z_{targ}:[60,90] cm, entries: 10
+vol: 491 #theta:[300,350] mrad p_{tot}:[11,14] GeV/c z_{targ}:[30,60] cm, entries: 10
+vol: 492 #theta:[300,350] mrad p_{tot}:[11,14] GeV/c z_{targ}:[60,90] cm, entries: 0
+vol: 493 #theta:[300,350] mrad p_{tot}:[14,17] GeV/c z_{targ}:[30,60] cm, entries: 8
+vol: 494 #theta:[300,350] mrad p_{tot}:[14,17] GeV/c z_{targ}:[60,90] cm, entries: 4
+vol: 495 #theta:[350,400] mrad p_{tot}:[11,14] GeV/c z_{targ}:[30,60] cm, entries: 6
+vol: 496 #theta:[350,400] mrad p_{tot}:[11,14] GeV/c z_{targ}:[60,90] cm, entries: 4
+vol: 497 #theta:[350,400] mrad p_{tot}:[14,17] GeV/c z_{targ}:[30,60] cm, entries: 2
+vol: 498 #theta:[350,400] mrad p_{tot}:[14,17] GeV/c z_{targ}:[60,90] cm, entries: 0
+Total Entries: 4392
+Total Calls: 4392
+==== PhaseSpaceFolder: dataSetMgr ==== end =====
